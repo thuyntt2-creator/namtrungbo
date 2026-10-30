@@ -11,3 +11,4 @@ rows_kt = ws_kt.get_all_values()
 
 for idx, r in enumerate(rows_kt[:15]):
     print(f"Row {idx}: {r[:18]}")
+

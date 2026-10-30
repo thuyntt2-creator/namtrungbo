@@ -111,3 +111,4 @@ print(f"Tổng số bưu cục cảnh báo tính được: {len(results)}\n")
 for it in results:
     ach_str = "🟢 CƠ HỘI THOÁT" if it['is_achievable'] else "🔴 BỂ SÂU"
     print(f"• {it['bc_name']:28} | AM: {it['am']:20} | Vol: {it['vol_today']:4} | Target: {it['target']:4} đơn | {it['note']:35} | {ach_str}")
+

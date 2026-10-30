@@ -12,3 +12,4 @@ ws_kt = sh.worksheet('Kiểm tra')
 formulas = ws_kt.get('I1:P10', value_render_option='FORMULA')
 for idx, r in enumerate(formulas):
     print(f"Row {idx+1}: {r}")
+

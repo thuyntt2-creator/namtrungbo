@@ -17,3 +17,4 @@ print("\nSample Data row 5 (0-indexed 5):")
 for i, val in enumerate(cb_rows[5]):
     h = cb_rows[3][i] if i < len(cb_rows[3]) else ""
     print(f"Col {i} [{h}]: {val}")
+

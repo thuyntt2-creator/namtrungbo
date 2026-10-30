@@ -14,3 +14,4 @@ for r_idx in range(4):
     for c_idx, val in enumerate(cb_rows[r_idx]):
         if val.strip():
             print(f"  Col {c_idx} ({chr(65+c_idx) if c_idx < 26 else 'A'+chr(65+c_idx-26)}): {val}")
+

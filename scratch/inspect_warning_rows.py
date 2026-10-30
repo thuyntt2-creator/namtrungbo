@@ -18,3 +18,4 @@ for r in cb_rows[5:]:
         c14 = r[14]
         vol_can_giao = r[15]
         print(f"BC: {bc:28} | %GTC 7D (E): {gtc_7d:7} | GTC Best (F): {gtc_best:7} | 70% Best (G): {m70:7} | Col O (14): {c14:5} | Vol cần giao (P/15): {vol_can_giao:5} | Warning: {r[18]}")
+

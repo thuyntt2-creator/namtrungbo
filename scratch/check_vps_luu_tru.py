@@ -6,3 +6,4 @@ ssh.connect('103.82.27.107', username='root', password='T403kbek9E1r1nJy')
 stdin, stdout, stderr = ssh.exec_command('grep -rn "luu_tru" /root/auto_report/*.py')
 print(stdout.read().decode('utf-8'))
 ssh.close()
+
