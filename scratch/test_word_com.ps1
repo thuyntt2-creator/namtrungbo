@@ -16,8 +16,10 @@ try {
     $word.Quit()
     
     Write-Host "SUCCESSFULLY SAVED TO: $outDocx"
-} catch {
+}
+catch {
     Write-Host "Error: $($_.Exception.Message)"
     if ($word) { $word.Quit() }
 }
 
+b
