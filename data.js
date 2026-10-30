@@ -13195,7 +13195,7 @@ window.DASHBOARD_DATA = {
       "ncc_count": 7,
       "ktc_count": 7,
       "total_trucks": 60,
-      "last_updated": "07:24 - 30/10/2026"
+      "last_updated": "07:59 - 30/10/2026"
     },
     "surge_fixed": {
       "fixed_cost": 2617.99,
@@ -13230,7 +13230,7 @@ window.DASHBOARD_DATA = {
         "fixed_cost": 700.52,
         "surge_cost": 0.0,
         "surge_pct": 0.0,
-        "primary_ncc": "Mạnh Cường, Mạnh Cường (BCCK)",
+        "primary_ncc": "Mạnh Cường (BCCK), Mạnh Cường",
         "truck_count": 22
       },
       {
@@ -13243,7 +13243,7 @@ window.DASHBOARD_DATA = {
         "fixed_cost": 661.62,
         "surge_cost": 0.0,
         "surge_pct": 0.0,
-        "primary_ncc": "Mạnh Cường, NAK",
+        "primary_ncc": "NAK, Mạnh Cường",
         "truck_count": 9
       },
       {
@@ -13256,7 +13256,7 @@ window.DASHBOARD_DATA = {
         "fixed_cost": 198.27,
         "surge_cost": 0.0,
         "surge_pct": 0.0,
-        "primary_ncc": "Tốt và Rẻ, Trâm Hoá",
+        "primary_ncc": "Trâm Hoá, Lâm Ngọc Thành",
         "truck_count": 8
       },
       {
@@ -13269,7 +13269,7 @@ window.DASHBOARD_DATA = {
         "fixed_cost": 124.68,
         "surge_cost": 0.0,
         "surge_pct": 0.0,
-        "primary_ncc": "Công Định, NAK",
+        "primary_ncc": "NAK, Công Định",
         "truck_count": 5
       },
       {
@@ -13282,7 +13282,7 @@ window.DASHBOARD_DATA = {
         "fixed_cost": 95.77,
         "surge_cost": 0.0,
         "surge_pct": 0.0,
-        "primary_ncc": "Mạnh Cường, Mạnh Cường (BCCK)",
+        "primary_ncc": "Mạnh Cường (BCCK), Mạnh Cường",
         "truck_count": 11
       },
       {
@@ -13311,7 +13311,7 @@ window.DASHBOARD_DATA = {
         "surge_cost": 0.0,
         "surge_pct": 0.0,
         "truck_count": 35,
-        "active_ktcs": "KTC Đức Trọng, KTC Khánh Hòa, KTC Nam Nha Trang, KTC Bắc Nha Trang, KTC Bình Thuận"
+        "active_ktcs": "KTC Bắc Nha Trang, KTC Nam Nha Trang, KTC Khánh Hòa, KTC Bình Thuận, KTC Đức Trọng"
       },
       {
         "ncc": "NAK",
@@ -13324,7 +13324,7 @@ window.DASHBOARD_DATA = {
         "surge_cost": 0.0,
         "surge_pct": 0.0,
         "truck_count": 9,
-        "active_ktcs": "KTC Đức Trọng, KTC Bảo Lộc"
+        "active_ktcs": "KTC Bảo Lộc, KTC Đức Trọng"
       },
       {
         "ncc": "Mạnh Cường (BCCK)",
