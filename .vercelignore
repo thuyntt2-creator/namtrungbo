@@ -1,4 +1,4 @@
-# Ignore heavy media and raw spreadsheet backups that bloat Lambda bundle
+﻿# Ignore heavy media and raw spreadsheet backups that bloat Lambda bundle
 *.xlsx
 *.xls
 *.docx
@@ -18,4 +18,4 @@ test_*.png
 realtime_*.png
 verify_*.png
 *.bak*
-*.txt
+!requirements.txt
