@@ -1,0 +1,21 @@
+# Ignore heavy media and raw spreadsheet backups that bloat Lambda bundle
+*.xlsx
+*.xls
+*.docx
+*.doc
+*.png
+*.jpg
+*.jpeg
+*.bat
+*.sh
+*.log
+browser_profile/
+Capacity_Planning_Test/
+BAI_NOP_CAPACITY_GHN/
+recovered_docs/
+scratch/
+test_*.png
+realtime_*.png
+verify_*.png
+*.bak*
+*.txt

@@ -511,10 +511,36 @@ def add_security_headers(response):
             response.headers['Access-Control-Allow-Headers'] = 'Content-Type,Authorization,X-CSRF-Token'
             response.headers['Access-Control-Allow-Methods'] = 'GET,PUT,POST,DELETE,OPTIONS'
             
-    # Disable caching to force updates
-    response.headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, max-age=0'
-    response.headers['Pragma'] = 'no-cache'
-    response.headers['Expires'] = '0'
+    # Smart Edge Caching to prevent CPU limits on Vercel
+    path = request.path or ''
+    if request.method == 'GET' and response.status_code == 200:
+        if path.endswith(('.css', '.js', '.png', '.jpg', '.jpeg', '.svg', '.woff', '.woff2', '.ttf', '.ico')):
+            # Static assets: Cache on CDN for 1 day, browser for 1 hour (0% CPU on Vercel)
+            response.headers['Cache-Control'] = 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400'
+            response.headers.pop('Pragma', None)
+            response.headers.pop('Expires', None)
+        elif path.startswith('/api/'):
+            # Sensitive / auth / sync endpoints should NOT be cached
+            if any(p in path for p in ['/api/sync', '/api/login', '/api/logout', '/api/users', '/api/assign-role', '/api/reset-password', '/api/upload', '/api/chat', '/api/send-telegram']):
+                response.headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, max-age=0'
+                response.headers['Pragma'] = 'no-cache'
+            else:
+                # Dashboard read APIs: Cache on Vercel Edge CDN for 5 minutes (300s)
+                # Multiple viewers in the morning will receive cached data in 5ms without Python CPU
+                response.headers['Cache-Control'] = 'public, max-age=60, s-maxage=300, stale-while-revalidate=600'
+                response.headers.pop('Pragma', None)
+                response.headers.pop('Expires', None)
+        elif path in ['/', '/dashboard', '/hop', '/meeting', '/bao-cao-hop', '/bao-cao-tuan', '/index.html']:
+            # Main HTML pages: Cache on CDN for 5 minutes
+            response.headers['Cache-Control'] = 'public, max-age=60, s-maxage=300, stale-while-revalidate=600'
+            response.headers.pop('Pragma', None)
+            response.headers.pop('Expires', None)
+        else:
+            response.headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, max-age=0'
+            response.headers['Pragma'] = 'no-cache'
+    else:
+        response.headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, max-age=0'
+        response.headers['Pragma'] = 'no-cache'
     
     # Secure HTTP headers from rules with CSP
     csp_directives = [
@@ -4854,9 +4880,7 @@ def home():
 def meeting_dashboard():
     root_dir = os.path.dirname(os.path.abspath(__file__))
     response = send_from_directory(root_dir, 'index.html')
-    response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
-    response.headers['Pragma'] = 'no-cache'
-    response.headers['Expires'] = '0'
+    response.headers['Cache-Control'] = 'public, max-age=60, s-maxage=300, stale-while-revalidate=600'
     return response
 
 @app.route('/slide')
@@ -4935,9 +4959,12 @@ def serve_meeting_assets():
                 req_file = cand
                 break
     response = send_from_directory(root_dir, req_file, as_attachment=True if req_file.endswith('.docx') else False)
-    response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
-    response.headers['Pragma'] = 'no-cache'
-    response.headers['Expires'] = '0'
+    if req_file.endswith(('.css', '.js', '.png', '.jpg', '.svg', '.woff', '.woff2')):
+        response.headers['Cache-Control'] = 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400'
+    elif req_file in ['data.js', 'data.json']:
+        response.headers['Cache-Control'] = 'public, max-age=60, s-maxage=300, stale-while-revalidate=600'
+    else:
+        response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
     return response
 
 @app.route('/api/sync-sheets-oauth', methods=['GET', 'POST'])
