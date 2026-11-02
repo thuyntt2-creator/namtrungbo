@@ -13195,7 +13195,7 @@
       "ncc_count": 6,
       "ktc_count": 7,
       "total_trucks": 55,
-      "last_updated": "07:22 - 02/11/2026"
+      "last_updated": "07:57 - 02/11/2026"
     },
     "surge_fixed": {
       "fixed_cost": 1798.22,
@@ -13243,7 +13243,7 @@
         "fixed_cost": 255.93,
         "surge_cost": 0.0,
         "surge_pct": 0.0,
-        "primary_ncc": "Tốt và Rẻ, Trâm Hoá",
+        "primary_ncc": "Lâm Ngọc Thành, Trâm Hoá",
         "truck_count": 5
       },
       {
@@ -13269,7 +13269,7 @@
         "fixed_cost": 53.09,
         "surge_cost": 0.0,
         "surge_pct": 0.0,
-        "primary_ncc": "Công Định, NAK",
+        "primary_ncc": "NAK, Công Định",
         "truck_count": 5
       },
       {
@@ -13311,7 +13311,7 @@
         "surge_cost": 0.0,
         "surge_pct": 0.0,
         "truck_count": 37,
-        "active_ktcs": "KTC Đức Trọng, KTC Bình Thuận, KTC Nam Nha Trang, KTC Bắc Nha Trang, KTC Khánh Hòa"
+        "active_ktcs": "KTC Nam Nha Trang, KTC Bắc Nha Trang, KTC Đức Trọng, KTC Bình Thuận, KTC Khánh Hòa"
       },
       {
         "ncc": "Lâm Ngọc Thành",
