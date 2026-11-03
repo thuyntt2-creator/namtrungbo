@@ -13195,7 +13195,7 @@ window.DASHBOARD_DATA = {
       "ncc_count": 7,
       "ktc_count": 7,
       "total_trucks": 60,
-      "last_updated": "08:31 - 03/11/2026"
+      "last_updated": "09:06 - 03/11/2026"
     },
     "surge_fixed": {
       "fixed_cost": 1894.22,
@@ -13243,7 +13243,7 @@ window.DASHBOARD_DATA = {
         "fixed_cost": 256.05,
         "surge_cost": 0.0,
         "surge_pct": 0.0,
-        "primary_ncc": "Trâm Hoá, Lâm Ngọc Thành",
+        "primary_ncc": "Tốt và Rẻ, Trâm Hoá",
         "truck_count": 7
       },
       {
@@ -13269,7 +13269,7 @@ window.DASHBOARD_DATA = {
         "fixed_cost": 122.32,
         "surge_cost": 0.0,
         "surge_pct": 0.0,
-        "primary_ncc": "Mạnh Cường, Mạnh Cường (BCCK)",
+        "primary_ncc": "Mạnh Cường (BCCK), Mạnh Cường",
         "truck_count": 13
       },
       {
@@ -13311,7 +13311,7 @@ window.DASHBOARD_DATA = {
         "surge_cost": 0.0,
         "surge_pct": 0.0,
         "truck_count": 37,
-        "active_ktcs": "KTC Bắc Nha Trang, KTC Đức Trọng, KTC Bình Thuận, KTC Nam Nha Trang, KTC Khánh Hòa"
+        "active_ktcs": "KTC Nam Nha Trang, KTC Khánh Hòa, KTC Đức Trọng, KTC Bắc Nha Trang, KTC Bình Thuận"
       },
       {
         "ncc": "Lâm Ngọc Thành",
