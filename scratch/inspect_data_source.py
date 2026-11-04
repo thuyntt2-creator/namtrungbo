@@ -17,3 +17,4 @@ try:
     print("Data row 2 Col D formula:", ws_data.acell('D2', value_render_option='FORMULA').value)
 except Exception as e:
     print("Error opening source sheet:", e)
+

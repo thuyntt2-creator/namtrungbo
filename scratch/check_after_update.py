@@ -26,3 +26,4 @@ for i, r in enumerate(rows):
 # Check total alerts in NTBo
 total_alert = ws_ntbo.acell('J2').value
 print(f"\nTổng số bưu cục cảnh báo (Cell J2): {total_alert}")
+

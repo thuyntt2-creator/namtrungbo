@@ -15,3 +15,4 @@ print("A1 formula:", repr(ws_raw.acell('A1', value_render_option='FORMULA').valu
 ws_raw.update_acell('D1484', '')
 ws_raw.update_acell('D1506', '')
 print("Cleared D1484 and D1506!")
+

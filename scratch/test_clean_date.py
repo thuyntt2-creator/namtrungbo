@@ -40,3 +40,4 @@ print(f"\nĐức Trọng 1 on 2026-11-03:")
 print(f"Total GTC: {gtc_sum}, Total Vol: {vol_sum}")
 if vol_sum > 0:
     print(f"%GTC = {gtc_sum / vol_sum * 100:.2f}%")
+

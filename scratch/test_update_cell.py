@@ -19,3 +19,4 @@ time.sleep(2)
 
 val_j6 = ws_ntbo.acell('J6').value
 print("Value of NTBo!J6 after changing D1484 & D1506 to '2026-11-03':", val_j6)
+

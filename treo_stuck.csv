@@ -292,8 +292,8 @@
 20495000,GYMAKCY9,Luân chuyển trả,SHOPEE,Chưa đóng kiện,12_24,(KHO) Nha Trang
 20495000,GYMWH6AU,Luân chuyển trả,OTHER,Chưa đóng kiện,12_24,(KHO) Nha Trang
 20495000,GYMHE4DH,Luân chuyển trả,OTHER,Chưa đóng kiện,12_24,(KHO) Nha Trang
-20495000,GYMTY4YC,Luân chuyển trả,SHOPEE,Chưa đóng kiện,96_120,(KHO) Nha Trang
-20495000,GYMTMU3N,Luân chuyển giao,OTHER,Chưa đóng kiện,96_120,(KHO) Nha Trang
+21294000,GYMWQYYD,Luân chuyển trả,SHOPEE,Không cần đóng kiện,96_120,(LDO) Đinh Văn Lâm Hà
+22425000,GYMVPGWF,Luân chuyển trả,SHOPEE,Không cần đóng kiện,72_96,(LDO) Tân Hà Lâm Hà
 20784000,GYMTHRHR,Luân chuyển trả,OTHER,Chưa đóng kiện,6_12,(KHO) Khánh Sơn
 20499000,GYMBEXA9,Luân chuyển trả,OTHER,Chưa đóng kiện,6_12,(NTH) Phước Dinh
 20784000,VNGH80919120719,Luân chuyển trả,TTS,Chưa đóng kiện,6_12,(KHO) Khánh Sơn
@@ -448,7 +448,7 @@
 20558000,GYMHUCNL,Luân chuyển trả,SHOPEE,Chưa đóng kiện,6_12,(KHO) Khánh Vĩnh
 20558000,GYM8RWKR,Luân chuyển trả,SHOPEE,Chưa đóng kiện,6_12,(KHO) Khánh Vĩnh
 20558000,GYMHETGN,Luân chuyển trả,OTHER,Chưa đóng kiện,6_12,(KHO) Khánh Vĩnh
-20558000,GYM7ACGE,Luân chuyển giao,OTHER,Chưa đóng kiện,192,(KHO) Khánh Vĩnh
+22425000,GYMGCBUY,Luân chuyển trả,OTHER,Không cần đóng kiện,96_120,(LDO) Tân Hà Lâm Hà
 20785000,VNGH80021140919,Luân chuyển giao,TTS,Không cần đóng kiện,0_6,(LDO) B'Lao
 20785000,VNGH80550920920,Luân chuyển giao,TTS,Không cần đóng kiện,0_6,(LDO) B'Lao
 20785000,VNGH80693490915,Luân chuyển giao,TTS,Không cần đóng kiện,0_6,(LDO) B'Lao
@@ -1992,7 +1992,7 @@
 21294000,GYMXVNKD,Luân chuyển trả,SHOPEE,Chưa đóng kiện,24_36,(LDO) Đinh Văn Lâm Hà
 21294000,GYMHKPU8,Luân chuyển trả,OTHER,Chưa đóng kiện,48_72,(LDO) Đinh Văn Lâm Hà
 21569000,GYMTUX8P,Luân chuyển trả,OTHER,Chưa đóng kiện,12_24,(KHO) Đông Ninh Hòa
-21294000,GYMWQYYD,Luân chuyển trả,SHOPEE,Không cần đóng kiện,96_120,(LDO) Đinh Văn Lâm Hà
+20558000,GYM7ACGE,Luân chuyển giao,OTHER,Chưa đóng kiện,192,(KHO) Khánh Vĩnh
 21569000,GYMHGNGT,Luân chuyển trả,OTHER,Chưa đóng kiện,12_24,(KHO) Đông Ninh Hòa
 21569000,YOD1SO047422805,Luân chuyển trả,OTHER,Chưa đóng kiện,12_24,(KHO) Đông Ninh Hòa
 21569000,GYMWNRRM,Luân chuyển trả,OTHER,Không cần đóng kiện,24_36,(KHO) Đông Ninh Hòa
@@ -2021,7 +2021,7 @@
 22086000,VNGH80300070711,Luân chuyển trả,TTS,Chưa đóng kiện,24_36,(DNO) Trường Xuân
 22086000,VNGH80422350712,Luân chuyển trả,TTS,Không cần đóng kiện,24_36,(DNO) Trường Xuân
 22086000,GYMK849D,Luân chuyển trả,SHOPEE,Không cần đóng kiện,48_72,(DNO) Trường Xuân
-22086000,GYMBWCCD,Luân chuyển trả,SHOPEE,Chưa đóng kiện,72_96,(DNO) Trường Xuân
+20495000,GYMTY4YC,Luân chuyển trả,SHOPEE,Chưa đóng kiện,96_120,(KHO) Nha Trang
 22116000,GYM4PP6H,Luân chuyển trả,OTHER,Chưa đóng kiện,6_12,(LDO) Xuân Trường - Đà Lạt
 22116000,GYMKKTKR,Luân chuyển trả,OTHER,Không cần đóng kiện,6_12,(LDO) Xuân Trường - Đà Lạt
 22116000,GYMW9APP,Luân chuyển trả,OTHER,Chưa đóng kiện,6_12,(LDO) Xuân Trường - Đà Lạt
@@ -2605,8 +2605,8 @@
 22425000,GYMYQDHF,Luân chuyển giao,SHOPEE,Không cần đóng kiện,36_48,(LDO) Tân Hà Lâm Hà
 22425000,GYMKUC8R,Luân chuyển giao,OTHER,Chưa đóng kiện,36_48,(LDO) Tân Hà Lâm Hà
 22425000,GYM3P87Q,Luân chuyển trả,OTHER,Chưa đóng kiện,48_72,(LDO) Tân Hà Lâm Hà
-22425000,GYMVPGWF,Luân chuyển trả,SHOPEE,Không cần đóng kiện,72_96,(LDO) Tân Hà Lâm Hà
-22425000,GYMGCBUY,Luân chuyển trả,OTHER,Không cần đóng kiện,96_120,(LDO) Tân Hà Lâm Hà
+20495000,GYMTMU3N,Luân chuyển giao,OTHER,Chưa đóng kiện,96_120,(KHO) Nha Trang
+22746000,GYMBNCKY,Luân chuyển giao,OTHER,Chưa đóng kiện,120_192,(KHO) Nam Nha Trang 1
 22394000,GYMTX8YY,Luân chuyển trả,SHOPEE,Không cần đóng kiện,6_12,(DNO) Quảng Tín
 22394000,GYMX4A6U,Luân chuyển trả,SHOPEE,Chưa đóng kiện,6_12,(DNO) Quảng Tín
 22394000,GYMATHD9,Luân chuyển trả,SHOPEE,Không cần đóng kiện,6_12,(DNO) Quảng Tín
@@ -3088,7 +3088,7 @@
 22746000,GYMXG7TT,Luân chuyển trả,SHOPEE,Chưa đóng kiện,24_36,(KHO) Nam Nha Trang 1
 22746000,GYMHRRDP,Luân chuyển giao,OTHER,Chưa đóng kiện,48_72,(KHO) Nam Nha Trang 1
 22746000,GYMBX9L3,Luân chuyển trả,OTHER,Chưa đóng kiện,48_72,(KHO) Nam Nha Trang 1
-22746000,GYMBNCKY,Luân chuyển giao,OTHER,Chưa đóng kiện,120_192,(KHO) Nam Nha Trang 1
+22086000,GYMBWCCD,Luân chuyển trả,SHOPEE,Chưa đóng kiện,72_96,(DNO) Trường Xuân
 22830000,GYMTBUBD,Luân chuyển trả,OTHER,Chưa đóng kiện,12_24,(KHO) Cam Linh
 22830000,GYMMCAQ8,Luân chuyển giao,SHOPEE,Không cần đóng kiện,12_24,(KHO) Cam Linh
 22830000,GYM3P7TL,Luân chuyển trả,OTHER,Chưa đóng kiện,24_36,(KHO) Cam Linh

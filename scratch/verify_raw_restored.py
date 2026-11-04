@@ -23,3 +23,4 @@ h5 = ws_ntbo.row_values(5)
 r6 = ws_ntbo.row_values(6)
 for h, v in zip(h5[:12], r6[:12]):
     print(f"  {h}: {v}")
+

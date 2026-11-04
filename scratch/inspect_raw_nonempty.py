@@ -21,3 +21,4 @@ if non_empty:
         print(f"Row {idx+1}: {all_vals[idx][:6]}")
     for idx in non_empty[-5:]:
         print(f"Row {idx+1}: {all_vals[idx][:6]}")
+

@@ -15,3 +15,4 @@ has_thu = [v for v in col_d if ' - ' in v or 'Thứ' in v or 'Chủ Nhật' in v
 print(f"Total rows in raw Col D: {len(col_d)}")
 print(f"Rows with ' - Thứ / Chủ Nhật': {len(has_thu)}")
 print("Sample values in Col D:", col_d[:5], col_d[-5:])
+

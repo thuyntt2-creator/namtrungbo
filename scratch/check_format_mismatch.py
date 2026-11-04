@@ -19,3 +19,4 @@ print("Col D value:", repr(ws_raw.cell(2, 4).value))
 print("\nNTBo J5:")
 print("Value:", repr(ws_ntbo.cell(5, 10).value))
 print("Formula:", repr(ws_ntbo.acell('J5', value_render_option='FORMULA').value))
+

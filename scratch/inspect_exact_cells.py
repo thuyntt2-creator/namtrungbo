@@ -23,3 +23,4 @@ print("raw J1484:", repr(ws_raw.acell('J1484').value))
 # In Google Sheets, when you write '2026-11-03' via API as string vs USER_ENTERED (date)
 print("NTBo J5 user entered value / formula:", ws_ntbo.acell('J5', value_render_option='UNFORMATTED_VALUE').value)
 print("raw D1484 unformatted value:", ws_raw.acell('D1484', value_render_option='UNFORMATTED_VALUE').value)
+
