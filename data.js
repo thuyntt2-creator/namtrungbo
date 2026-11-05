@@ -13195,7 +13195,7 @@ window.DASHBOARD_DATA = {
       "ncc_count": 7,
       "ktc_count": 7,
       "total_trucks": 60,
-      "last_updated": "10:17 - 05/11/2026"
+      "last_updated": "10:52 - 05/11/2026"
     },
     "surge_fixed": {
       "fixed_cost": 2023.13,
@@ -13256,7 +13256,7 @@ window.DASHBOARD_DATA = {
         "fixed_cost": 256.05,
         "surge_cost": 0.0,
         "surge_pct": 0.0,
-        "primary_ncc": "Lâm Ngọc Thành, Trâm Hoá",
+        "primary_ncc": "Tốt và Rẻ, Lâm Ngọc Thành",
         "truck_count": 7
       },
       {
@@ -13269,7 +13269,7 @@ window.DASHBOARD_DATA = {
         "fixed_cost": 122.15,
         "surge_cost": 0.0,
         "surge_pct": 0.0,
-        "primary_ncc": "Mạnh Cường (BCCK), Mạnh Cường",
+        "primary_ncc": "Mạnh Cường, Mạnh Cường (BCCK)",
         "truck_count": 13
       },
       {
@@ -13311,7 +13311,7 @@ window.DASHBOARD_DATA = {
         "surge_cost": 0.0,
         "surge_pct": 0.0,
         "truck_count": 37,
-        "active_ktcs": "KTC Nam Nha Trang, KTC Khánh Hòa, KTC Bắc Nha Trang, KTC Bình Thuận, KTC Đức Trọng"
+        "active_ktcs": "KTC Bắc Nha Trang, KTC Khánh Hòa, KTC Bình Thuận, KTC Nam Nha Trang, KTC Đức Trọng"
       },
       {
         "ncc": "NAK",
@@ -15071,7 +15071,7 @@ window.DASHBOARD_DATA = {
         "cost": 2096935.0,
         "trips_equivalent": 1,
         "trip_code": "E2610310GEJ57IV",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15086,7 +15086,7 @@ window.DASHBOARD_DATA = {
         "cost": 2096935.0,
         "trips_equivalent": 1,
         "trip_code": "E2611014WW1ZG5B",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15101,7 +15101,7 @@ window.DASHBOARD_DATA = {
         "cost": 2096935.0,
         "trips_equivalent": 1,
         "trip_code": "E261102XH8R70KJ",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15116,7 +15116,7 @@ window.DASHBOARD_DATA = {
         "cost": 2096935.0,
         "trips_equivalent": 1,
         "trip_code": "E261103JIW110ZJ",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15221,7 +15221,7 @@ window.DASHBOARD_DATA = {
         "cost": 1096247.0,
         "trips_equivalent": 1,
         "trip_code": "E261101W6A98LY6",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15236,7 +15236,7 @@ window.DASHBOARD_DATA = {
         "cost": 1096247.0,
         "trips_equivalent": 1,
         "trip_code": "E2611023W1NQIPN",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15251,7 +15251,7 @@ window.DASHBOARD_DATA = {
         "cost": 1096247.0,
         "trips_equivalent": 1,
         "trip_code": "E261103CB6W81TR",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15266,7 +15266,7 @@ window.DASHBOARD_DATA = {
         "cost": 1096247.0,
         "trips_equivalent": 1,
         "trip_code": "E261104BNU6OVTB",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15371,7 +15371,7 @@ window.DASHBOARD_DATA = {
         "cost": 940246.0,
         "trips_equivalent": 1,
         "trip_code": "E261031ID8QO6TI",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15386,7 +15386,7 @@ window.DASHBOARD_DATA = {
         "cost": 949124.0,
         "trips_equivalent": 1,
         "trip_code": "E261102NYE4U7NQ",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15401,7 +15401,7 @@ window.DASHBOARD_DATA = {
         "cost": 1843275.0,
         "trips_equivalent": 1,
         "trip_code": "E261103S5EZI7TA",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15521,7 +15521,7 @@ window.DASHBOARD_DATA = {
         "cost": 390636.0,
         "trips_equivalent": 1,
         "trip_code": "E2610317QXWLX7W",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15536,7 +15536,7 @@ window.DASHBOARD_DATA = {
         "cost": 390636.0,
         "trips_equivalent": 1,
         "trip_code": "E261101GHVX6HUP",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15551,7 +15551,7 @@ window.DASHBOARD_DATA = {
         "cost": 390636.0,
         "trips_equivalent": 1,
         "trip_code": "E261102CBH81NQX",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15566,7 +15566,7 @@ window.DASHBOARD_DATA = {
         "cost": 390636.0,
         "trips_equivalent": 1,
         "trip_code": "E2611035R7PBOOZ",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15656,7 +15656,7 @@ window.DASHBOARD_DATA = {
         "cost": 1044246.0,
         "trips_equivalent": 1,
         "trip_code": "E261031AQGF2F0J",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15671,7 +15671,7 @@ window.DASHBOARD_DATA = {
         "cost": 1044246.0,
         "trips_equivalent": 1,
         "trip_code": "E261101KT3IG327",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15686,7 +15686,7 @@ window.DASHBOARD_DATA = {
         "cost": 1053124.0,
         "trips_equivalent": 1,
         "trip_code": "E2611022YT86XZH",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15701,7 +15701,7 @@ window.DASHBOARD_DATA = {
         "cost": 1053124.0,
         "trips_equivalent": 1,
         "trip_code": "E261103NBJ7MMPX",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15791,7 +15791,7 @@ window.DASHBOARD_DATA = {
         "cost": 1032832.0,
         "trips_equivalent": 1,
         "trip_code": "E2610313N76FZ4X",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15806,7 +15806,7 @@ window.DASHBOARD_DATA = {
         "cost": 1032832.0,
         "trips_equivalent": 1,
         "trip_code": "E261101CE5B1HUC",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15821,7 +15821,7 @@ window.DASHBOARD_DATA = {
         "cost": 1032832.0,
         "trips_equivalent": 1,
         "trip_code": "E261102DNXP78AY",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15836,7 +15836,7 @@ window.DASHBOARD_DATA = {
         "cost": 1032832.0,
         "trips_equivalent": 1,
         "trip_code": "E2611035JMIG1FD",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15941,7 +15941,7 @@ window.DASHBOARD_DATA = {
         "cost": 1505908.0,
         "trips_equivalent": 1,
         "trip_code": "E261031NJ9NLV5S",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15956,7 +15956,7 @@ window.DASHBOARD_DATA = {
         "cost": 1505908.0,
         "trips_equivalent": 1,
         "trip_code": "E261101T3PTJ1PZ",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15971,7 +15971,7 @@ window.DASHBOARD_DATA = {
         "cost": 1505908.0,
         "trips_equivalent": 1,
         "trip_code": "E261102WNHKKEW1",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -15986,7 +15986,7 @@ window.DASHBOARD_DATA = {
         "cost": 1505908.0,
         "trips_equivalent": 1,
         "trip_code": "E261103QUAIIYUM",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -16091,7 +16091,7 @@ window.DASHBOARD_DATA = {
         "cost": 1190101.0,
         "trips_equivalent": 1,
         "trip_code": "E2611010ZSK7DSW",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -16106,7 +16106,7 @@ window.DASHBOARD_DATA = {
         "cost": 1190101.0,
         "trips_equivalent": 1,
         "trip_code": "E261102DV3VSVIJ",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -16121,7 +16121,7 @@ window.DASHBOARD_DATA = {
         "cost": 1198979.0,
         "trips_equivalent": 1,
         "trip_code": "E261103VFJ49K8N",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -16136,7 +16136,7 @@ window.DASHBOARD_DATA = {
         "cost": 1198979.0,
         "trips_equivalent": 1,
         "trip_code": "E261104XCRPF2ZB",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -16331,7 +16331,7 @@ window.DASHBOARD_DATA = {
         "cost": 1405712.0,
         "trips_equivalent": 1,
         "trip_code": "E261031E5DVFBRN",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -16346,7 +16346,7 @@ window.DASHBOARD_DATA = {
         "cost": 980831.0,
         "trips_equivalent": 1,
         "trip_code": "E261101X9ND1MJX",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -16361,7 +16361,7 @@ window.DASHBOARD_DATA = {
         "cost": 1405712.0,
         "trips_equivalent": 1,
         "trip_code": "E2611018VFZPYCR",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -16376,7 +16376,7 @@ window.DASHBOARD_DATA = {
         "cost": 980831.0,
         "trips_equivalent": 1,
         "trip_code": "E261102J3GLJUH0",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -16391,7 +16391,7 @@ window.DASHBOARD_DATA = {
         "cost": 1405712.0,
         "trips_equivalent": 1,
         "trip_code": "E261102DX8OTAKO",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -16406,7 +16406,7 @@ window.DASHBOARD_DATA = {
         "cost": 980831.0,
         "trips_equivalent": 1,
         "trip_code": "E261103OGMN0IED",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -16421,7 +16421,7 @@ window.DASHBOARD_DATA = {
         "cost": 1405712.0,
         "trips_equivalent": 1,
         "trip_code": "E261103D1H880JH",
-        "ontime": ""
+        "ontime": "0,8"
       },
       {
         "ncc": "NAK",
@@ -16436,7 +16436,7 @@ window.DASHBOARD_DATA = {
         "cost": 980831.0,
         "trips_equivalent": 1,
         "trip_code": "E261104JTXVZH76",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -16541,7 +16541,7 @@ window.DASHBOARD_DATA = {
         "cost": 2035488.0,
         "trips_equivalent": 1,
         "trip_code": "E261031RR1Z2VEV",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -16549,14 +16549,14 @@ window.DASHBOARD_DATA = {
         "date_iso": "2026-11-02",
         "truck": "29H-85386",
         "capacity": "5000",
-        "route": "Kho Chuyển Tiếp Bảo Lộc -> (LDO) Đạ Huoai -> (LDO) Đạ Tẻh -> (LDO) Cát Tiên -> (LDO) Đạ Tẻh -> (LDO) ĐG Bảo Lâm 5 -> Kho Chuyển Tiếp Bảo Lộc",
+        "route": "Kho Chuyển Tiếp Bảo Lộc -> (LDO) 3 Bảo Lộc -> (LDO) Đạ Huoai -> (LDO) Đạ Tẻh -> (LDO) Cát Tiên -> (LDO) Đạ Tẻh -> (LDO) ĐG Bảo Lâm 5 -> Kho Chuyển Tiếp Bảo Lộc",
         "ktc": "KTC Bảo Lộc",
         "type": "Cố định",
         "cost_str": "2.035.488 đ",
         "cost": 2035488.0,
         "trips_equivalent": 1,
         "trip_code": "E261101JVS86631",
-        "ontime": ""
+        "ontime": "0,625"
       },
       {
         "ncc": "NAK",
@@ -16571,7 +16571,7 @@ window.DASHBOARD_DATA = {
         "cost": 2035488.0,
         "trips_equivalent": 1,
         "trip_code": "E261102UH68QW0Z",
-        "ontime": ""
+        "ontime": "0,8571"
       },
       {
         "ncc": "NAK",
@@ -16586,7 +16586,7 @@ window.DASHBOARD_DATA = {
         "cost": 2035488.0,
         "trips_equivalent": 1,
         "trip_code": "E261103MI4J50VZ",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -16691,7 +16691,7 @@ window.DASHBOARD_DATA = {
         "cost": 1788916.0,
         "trips_equivalent": 1,
         "trip_code": "E2610311AAMXOEA",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -16706,7 +16706,7 @@ window.DASHBOARD_DATA = {
         "cost": 1788916.0,
         "trips_equivalent": 1,
         "trip_code": "E261102QUGIV2WU",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -16721,7 +16721,7 @@ window.DASHBOARD_DATA = {
         "cost": 1782828.0,
         "trips_equivalent": 1,
         "trip_code": "E261103N8S253M3",
-        "ontime": ""
+        "ontime": "0,1429"
       },
       {
         "ncc": "NAK",
@@ -16736,7 +16736,7 @@ window.DASHBOARD_DATA = {
         "cost": 1788916.0,
         "trips_equivalent": 1,
         "trip_code": "E261103QALS3WSD",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -16841,7 +16841,7 @@ window.DASHBOARD_DATA = {
         "cost": 2319721.0,
         "trips_equivalent": 1,
         "trip_code": "E261031QN534LYK",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -16856,7 +16856,7 @@ window.DASHBOARD_DATA = {
         "cost": 2669772.0,
         "trips_equivalent": 1,
         "trip_code": "E261101DT4IUTQZ",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -16871,7 +16871,7 @@ window.DASHBOARD_DATA = {
         "cost": 2319721.0,
         "trips_equivalent": 1,
         "trip_code": "E261102DKSV10K0",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -16886,7 +16886,7 @@ window.DASHBOARD_DATA = {
         "cost": 2669772.0,
         "trips_equivalent": 1,
         "trip_code": "E261103Q3H4HEJ3",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -16991,7 +16991,7 @@ window.DASHBOARD_DATA = {
         "cost": 795224.0,
         "trips_equivalent": 1,
         "trip_code": "E261101SSNGOH5E",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -17006,7 +17006,7 @@ window.DASHBOARD_DATA = {
         "cost": 795224.0,
         "trips_equivalent": 1,
         "trip_code": "E2611021RTW3SJ8",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -17021,7 +17021,7 @@ window.DASHBOARD_DATA = {
         "cost": 795224.0,
         "trips_equivalent": 1,
         "trip_code": "E261103GYGYCSB8",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -17036,7 +17036,7 @@ window.DASHBOARD_DATA = {
         "cost": 795224.0,
         "trips_equivalent": 1,
         "trip_code": "E261104WAGYWUTS",
-        "ontime": ""
+        "ontime": "0,8"
       },
       {
         "ncc": "NAK",
@@ -17134,14 +17134,14 @@ window.DASHBOARD_DATA = {
         "date_iso": "2026-11-01",
         "truck": "29E-83325",
         "capacity": "1900",
-        "route": "Kho Chuyển Tiếp Đức Trọng -> (LDO) D'Ran -> Kho Giao Hàng Nặng - TP Đà Lạt - Lâm Đồng -> Kho Chuyển Tiếp Đức Trọng",
+        "route": "Kho Chuyển Tiếp Đức Trọng -> (LDO) Đơn Dương -> (LDO) D'Ran -> Kho Giao Hàng Nặng - TP Đà Lạt - Lâm Đồng -> Kho Chuyển Tiếp Đức Trọng",
         "ktc": "KTC Đức Trọng",
         "type": "Cố định",
         "cost_str": "1.390.275 đ",
         "cost": 1390275.0,
         "trips_equivalent": 1,
         "trip_code": "E261031UOYL4U13",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -17149,14 +17149,14 @@ window.DASHBOARD_DATA = {
         "date_iso": "2026-11-02",
         "truck": "29E-83325",
         "capacity": "1900",
-        "route": "Kho Chuyển Tiếp Đức Trọng -> (LDO) D'Ran -> Kho Giao Hàng Nặng - TP Đà Lạt - Lâm Đồng -> Kho Chuyển Tiếp Đức Trọng",
+        "route": "Kho Chuyển Tiếp Đức Trọng -> (LDO) Đơn Dương -> (LDO) D'Ran -> Kho Giao Hàng Nặng - TP Đà Lạt - Lâm Đồng -> Kho Chuyển Tiếp Đức Trọng",
         "ktc": "KTC Đức Trọng",
         "type": "Cố định",
         "cost_str": "1.390.275 đ",
         "cost": 1390275.0,
         "trips_equivalent": 1,
         "trip_code": "E2611015HZTWJZG",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -17164,14 +17164,14 @@ window.DASHBOARD_DATA = {
         "date_iso": "2026-11-03",
         "truck": "29E-83325",
         "capacity": "1900",
-        "route": "Kho Chuyển Tiếp Đức Trọng -> (LDO) D'Ran -> Kho Giao Hàng Nặng - TP Đà Lạt - Lâm Đồng -> Kho Chuyển Tiếp Đức Trọng",
+        "route": "Kho Chuyển Tiếp Đức Trọng -> (LDO) Đơn Dương -> (LDO) D'Ran -> Kho Giao Hàng Nặng - TP Đà Lạt - Lâm Đồng -> Kho Chuyển Tiếp Đức Trọng",
         "ktc": "KTC Đức Trọng",
         "type": "Cố định",
         "cost_str": "1.390.275 đ",
         "cost": 1390275.0,
         "trips_equivalent": 1,
         "trip_code": "E261102SHJDQJHE",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -17179,14 +17179,14 @@ window.DASHBOARD_DATA = {
         "date_iso": "2026-11-04",
         "truck": "29E-83325",
         "capacity": "1900",
-        "route": "Kho Chuyển Tiếp Đức Trọng -> (LDO) D'Ran -> Kho Giao Hàng Nặng - TP Đà Lạt - Lâm Đồng -> Kho Chuyển Tiếp Đức Trọng",
+        "route": "Kho Chuyển Tiếp Đức Trọng -> (LDO) Đơn Dương -> (LDO) D'Ran -> Kho Giao Hàng Nặng - TP Đà Lạt - Lâm Đồng -> Kho Chuyển Tiếp Đức Trọng",
         "ktc": "KTC Đức Trọng",
         "type": "Cố định",
         "cost_str": "1.390.275 đ",
         "cost": 1390275.0,
         "trips_equivalent": 1,
         "trip_code": "E261103Z5N5BOTC",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -17291,7 +17291,7 @@ window.DASHBOARD_DATA = {
         "cost": 1299175.0,
         "trips_equivalent": 1,
         "trip_code": "E261101RXXSK4ER",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -17306,7 +17306,7 @@ window.DASHBOARD_DATA = {
         "cost": 1299175.0,
         "trips_equivalent": 1,
         "trip_code": "E261102O5J6KV26",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -17321,7 +17321,7 @@ window.DASHBOARD_DATA = {
         "cost": 1299175.0,
         "trips_equivalent": 1,
         "trip_code": "E261103GCYMWYI7",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -17336,7 +17336,7 @@ window.DASHBOARD_DATA = {
         "cost": 1299175.0,
         "trips_equivalent": 1,
         "trip_code": "E261104Q1Z0V7SN",
-        "ontime": ""
+        "ontime": "0,8571"
       },
       {
         "ncc": "NAK",
@@ -17441,7 +17441,7 @@ window.DASHBOARD_DATA = {
         "cost": 1606936.0,
         "trips_equivalent": 1,
         "trip_code": "E261101MZ3DH4XO",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -17456,7 +17456,7 @@ window.DASHBOARD_DATA = {
         "cost": 1606936.0,
         "trips_equivalent": 1,
         "trip_code": "E26110287CB5C5B",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -17471,7 +17471,7 @@ window.DASHBOARD_DATA = {
         "cost": 1606936.0,
         "trips_equivalent": 1,
         "trip_code": "E2611038RKVCLNF",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -17486,7 +17486,7 @@ window.DASHBOARD_DATA = {
         "cost": 1606936.0,
         "trips_equivalent": 1,
         "trip_code": "E261104BC0EEYY5",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -17591,7 +17591,7 @@ window.DASHBOARD_DATA = {
         "cost": 629077.0,
         "trips_equivalent": 1,
         "trip_code": "E261031LA4XZ9C0",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -17606,7 +17606,7 @@ window.DASHBOARD_DATA = {
         "cost": 629077.0,
         "trips_equivalent": 1,
         "trip_code": "E261101YK9KMVMO",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -17621,7 +17621,7 @@ window.DASHBOARD_DATA = {
         "cost": 629077.0,
         "trips_equivalent": 1,
         "trip_code": "E261102JUG0KCLP",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "NAK",
@@ -17636,7 +17636,7 @@ window.DASHBOARD_DATA = {
         "cost": 629077.0,
         "trips_equivalent": 1,
         "trip_code": "E261103UKG9XNJC",
-        "ontime": ""
+        "ontime": "1"
       },
       {
         "ncc": "Lâm Ngọc Thành",
