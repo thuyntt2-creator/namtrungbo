@@ -12,14 +12,14 @@ for section in doc.sections:
     section.right_margin = Inches(0.75)
 
 title = doc.add_paragraph()
-r = title.add_run('KỊCH BẢN THUYẾT TRÌNH BẢO VỆ CAPACITY PLANNING MÙA SALE 11.11')
+r = title.add_run('KỊCH BẢN TRAO ĐỔI BÀI TEST CAPACITY 11.11 VỚI NHÀ TUYỂN DỤNG')
 r.font.bold = True
 r.font.size = Pt(16)
 r.font.color.rgb = RGBColor(16, 44, 87)
 title.alignment = WD_ALIGN_PARAGRAPH.CENTER
 
 sub = doc.add_paragraph()
-r_sub = sub.add_run('(Dành riêng cho Chị Thủy - Trợ lý Vận Hành Vùng | Đọc khớp 100% từng Slide PowerPoint TRINH_BAY_VONG_2_5_SLIDES.pptx)')
+r_sub = sub.add_run('(Dành riêng cho Chị Thủy - Ngôn ngữ tự nhiên 100% người thật, vừa trao đổi vừa kể cách làm thực tế)')
 r_sub.font.italic = True
 r_sub.font.size = Pt(11)
 r_sub.font.color.rgb = RGBColor(80, 80, 80)
@@ -27,69 +27,73 @@ sub.alignment = WD_ALIGN_PARAGRAPH.CENTER
 
 doc.add_paragraph()
 
-slides_content = [
-    ("LỜI MỞ ĐẦU (15 GIÂY - Bật màn hình chuẩn bị)", 
-"""Kính thưa Ban Giám Đốc và Hội đồng tuyển dụng!
-Em là Thủy, Trợ lý Vận Hành Vùng. Hôm nay, em xin phép được trình bày phương án Điều phối Năng lực & Quản trị Rủi ro cho đợt cao điểm đại lễ Sale 11.11 của 12 bưu cục vùng Ven Sông qua 5 slide ngắn gọn."""),
+sections = [
+    ("MỞ ĐẦU (Khoảng 10-15 giây - Bật slide, nói tự nhiên)",
+"""Dạ chào anh và team, em vừa hoàn thành bài test Capacity đợt 11.11 này. Giờ em xin phép share màn hình rồi anh em mình cùng đi qua cách em bóc tách số liệu và tư duy xử lý nhé. Em có đúc kết ngắn gọn trong 5 slide để tiện trao đổi ạ."""),
 
-    ("SLIDE 1: BỨC TRANH TOÀN CẢNH & PHÂN HÓA NĂNG LỰC 2 TỈNH (08/11 – 21/11)",
-"""Kính thưa Hội đồng, nhìn vào Slide 1 là Bức tranh toàn cảnh ngày đỉnh điểm 12/11. Dữ liệu chạy mô hình hồi quy độ trễ luân chuyển 4 ngày (độ chính xác đạt hơn 97.6%) cho thấy sự phân hóa hoàn toàn đối lập giữa 2 tỉnh:
+    ("SLIDE 1: CÁCH EM BÓC TÁCH BỨC TRANH 2 TỈNH",
+"""Đầu tiên khi nhận file đề bài, việc em làm trước là dựng mô hình hồi quy độ trễ luân chuyển từ Lag 0 đến Lag 3 để xem đơn tạo từ các sàn mất mấy ngày mới dội về bưu cục. Em lấy 35 ngày dữ liệu cũ ra đối soát thì thấy sai số tầm 2.4%, tức là độ khớp đạt cỡ 97.6% nên em khá yên tâm lấy số này chạy dự báo tiếp.
 
-• Thứ nhất, Tỉnh Tây Lâm – Báo động đỏ Thiếu sức giao thực sự: Ngày đỉnh đơn về 7.620 đơn, trong khi công suất thật chỉ có 6.529 đơn, toàn tỉnh thiếu hụt ròng tới 1.091 đơn (+16.7%). Nguyên nhân cốt lõi là khủng hoảng nhân sự: Bến Sỏi rụng mất 10 shipper làm cap sụt từ 1.542 xuống còn 834 đơn; Lâm Viên 1 tách 6 người sang Lâm Viên 2; và Cầu Mây quá tải đỉnh (1.565 đơn). Do đó, giải pháp bắt buộc là dồn trọn vẹn 100% nguồn lực 12 thời vụ cho Tây Lâm.
+Khi chạy số ra ngày đỉnh 12/11 thì em thấy số liệu phân hóa rất rõ rệt luôn anh:
 
-• Thứ hai, Tỉnh Bắc Hòa – Đủ tải tổng thể, nhưng nghẽn hạ tầng và giờ xe: Đơn về ngày đỉnh là 7.411 đơn so với công suất 7.453 đơn, tức là toàn tỉnh hoàn toàn đủ sức giao (thậm chí còn dư 42 đơn), không hề thiếu nhân sự. Tuy nhiên tỉnh bị nghẽn cục bộ tại 3 điểm: Phú Điền kẹt sàn 90m² và xe tải KTC về trễ 10h trưa; CK Bắc Hòa kẹt hàng cồng kềnh; và Hòa Lộc vỡ trận chiều lấy. Vì vậy, nguyên tắc của em là: Bắc Hòa tuyệt đối không bơm thêm thời vụ mà tập trung gỡ nút thắt giờ xe và bốc hàng thẳng tại shop."""),
+Bên Tây Lâm nhìn là thấy thiếu người thật sự. Bến Sỏi em soi vào bảng chấm công thì thấy rụng mất cả chục shipper, cap bưu cục teo từ hơn 1.500 xuống còn có 834 đơn. Lâm Viên 1 thì bị cắt 6 bạn sang bưu cục mới, Cầu Mây thì đơn dồn về đỉnh 1.565 đơn. Tổng cả tỉnh thiếu hụt gần 1.100 đơn.
 
-    ("SLIDE 2: CHIẾN LƯỢC ĐIỀU PHỐI NGUỒN LỰC CAO ĐIỂM (10/11 – 15/11)",
-"""Chuyển sang Slide 2, đây là Bảng phân bổ chi tiết 12 nhân sự thời vụ và điều phối liên bưu cục:
+Nhưng sang Bắc Hòa, lúc đầu nhìn tưởng thiếu người, mà đến khi em cộng tổng toàn tỉnh lại thì công suất lại dư ra được 42 đơn. Vấn đề của Bắc Hòa không phải là thiếu quân, mà bị nghẽn cục bộ ở hạ tầng và giờ xe: Phú Điền kho có 90m² mà xe 10h trưa mới tới; Hòa Lộc thì gãy chiều lấy; CK Bắc Hòa thì vướng hàng to cồng kềnh.
 
-• Về phân bổ 12 thời vụ: Dồn 100% cho 3 bưu cục trọng điểm của Tây Lâm:
-  1. Bến Sỏi nhận 6 bạn thời vụ (tăng thêm 252 đơn/ngày), kết hợp điều 2 shipper từ bưu cục Gò Đào sang hỗ trợ, nâng cap từ 834 lên 1.210 đơn.
-  2. Cầu Mây nhận 4 bạn thời vụ (tăng thêm 168 đơn/ngày), nâng cap lên 1.292 đơn để giải tỏa lõi thị trấn.
-  3. Lâm Viên 1 nhận 2 bạn thời vụ (tăng 84 đơn/ngày) để bù đắp việc tách bưu cục.
+Nên ngay từ đầu em xác định luôn: 12 thời vụ em dồn toàn bộ cho Tây Lâm, còn Bắc Hòa em chốt 0 thời vụ, tuyệt đối không tuyển thêm người mà tập trung gỡ nút thắt hạ tầng."""),
 
-• Với các bưu cục còn lại: 
-  - Lâm Viên 2 (0 thời vụ): Do bưu cục mới mở 10 ngày, nhân sự đang lạ đường, không nhồi thời vụ để tránh rối loạn; thay vào đó bưu cục mẹ Lâm Viên 1 sẽ gánh lại các tuyến giáp ranh.
-  - Gò Đào: Đang rất dồi dào công suất (dư hơn 400 đơn), đóng vai trò bưu cục đệm nhận 2 phường giáp ranh của Bến Sỏi.
+    ("SLIDE 2: TƯ DUY PHÂN BỔ 12 THỜI VỤ VÀ ĐIỀU PHỐI NỘI BỘ",
+"""Qua slide này là cách em tính toán và chia 12 bạn thời vụ:
 
-• Quy tắc huấn luyện thời vụ: Ngày 10/11 bắt buộc đi kèm 1-1 với rider cứng học tuyến và quy trình app (năng suất tính = 0 đơn). Từ 11/11 chạy độc lập các tuyến hàng nhỏ, áp định mức an toàn 70% năng suất chuẩn = 42 đơn/bạn/ngày."""),
+Về sức tải thời vụ thì em chỉ dám tính tầm 70% so với anh em cũ thôi, rơi vào khoảng 42 đơn/bạn/ngày. Tại vì thời vụ mới vào lạ đường, tìm nhà lâu, mình không thể ép các bạn chạy như người cũ được. Với lại em cho các bạn nhận việc từ ngày 10/11 luôn, ngày đầu đi kẹp nách với shipper cứng để học tuyến, sang 11/11 mới bắt đầu chạy độc lập.
 
-    ("SLIDE 3: NÚT THẮT VẬN HÀNH NGOÀI PHẠM VI NHÂN SỰ & THẨM QUYỀN PHÊ DUYỆT",
-"""Kính thưa Hội đồng, Slide 3 chỉ ra 3 điểm nghẽn tại Bắc Hòa mà 'Thêm người là vô ích', mỗi điểm nghẽn cần đúng cấp thẩm quyền xử lý:
+12 bạn này em chia cho 3 bưu cục thiếu người nhất Tây Lâm:
+• Bến Sỏi nặng nhất em cho 6 bạn, kết hợp kéo thêm 2 anh em từ Gò Đào sang phụ, nâng cap bưu cục lên 1.210 đơn.
+• Cầu Mây em cho 4 bạn gánh mấy tuyến lõi thị trấn.
+• Lâm Viên 1 em bù 2 bạn để bù cho mấy bạn vừa chuyển đi.
 
-1. Bưu cục Phú Điền (Kẹt sàn 90m² & xe KTC lùi về 10h): Sàn 90m² người đi lại còn khó, xe về 10h trưa làm bóp cap từ 1.409 xuống 1.066 đơn. Thêm người vào chỉ dẫm chân nhau. Giải pháp: Lệnh cho KTC trả chuyến xe đầu về 6h30 sáng để khôi phục lại 343 đơn công suất; đồng thời thuê bãi đất trống 90m² liền kề làm lều dã chiến phân loại. Cấp quyết định: Giám đốc Vùng làm việc với Điều phối KTC.
+Riêng Lâm Viên 2 bưu cục mới toe mở được 10 ngày thì em dứt khoát không nhét thời vụ vào, vì kho mới mà đưa người mới vào nữa là rối tung lên ngay. Em để Lâm Viên 1 gánh đỡ tuyến giáp ranh. Còn Gò Đào dư hơn 400 tải thì em biến thành bưu cục đệm gánh phụ 2 phường cho Bến Sỏi luôn."""),
 
-2. Bưu cục CK Bắc Hòa (Bẫy đơn vị 2.600 Energy): Thực tế 2.600 energy chia 8 energy/đơn chỉ ra 325 đơn thật. Đơn đỉnh 405 đơn là vượt 24.6% hàng cồng kềnh, thời vụ xe máy không thể chở được. Giải pháp: Tăng cường xe tải nhỏ/xe ba gác và Sales hẹn giờ giao với khách lớn. Cấp quyết định: Giám đốc Vùng + Khối Kinh Doanh.
+    ("SLIDE 3: BÓC TÁCH 3 ĐIỂM NGHẼN BẮC HÒA (TẠI SAO THÊM NGƯỜI LÀ VÔ ÍCH)",
+"""Sang Bắc Hòa, em đào sâu vào thì thấy nếu mình cứ đè ra tuyển thời vụ là coi như ném tiền qua cửa sổ:
 
-3. Bưu cục Hòa Lộc (Báo động đỏ chiều lấy): Chiều giao đủ cap nhưng chiều lấy vỡ trận: đơn lấy vượt trần 81%, OPR rớt thảm hại còn 63.8%. Giải pháp: Chuyển 3-4 bạn giao xong sớm ca chiều sang hỗ trợ lấy, đồng thời yêu cầu KTC điều xe tải 1.5 tấn bốc thẳng tại 3 shop lớn (Direct Pickup). Cấp quyết định: Trưởng Bưu cục + Điều phối KTC.
+Thứ nhất là Phú Điền: Kho có 90m² bé xíu, xe KTC lại đổi lịch về lúc 10h trưa. Sáng shipper lên ngồi chơi xơi nước, trưa xe về mới đổ đống ra chia hàng, vỡ sạch Ca 1. Sàn chật cứng không có chỗ cựa quậy thì bơm người vào chỉ có giẫm chân lên nhau. Chỗ này việc duy nhất phải làm là ép xe KTC về lại 6h30 sáng và thuê bãi đất ngoài sân dựng lều dã chiến chia hàng.
 
-• Giải pháp nhân sự dài hạn cho Bến Sỏi: Em kiến nghị HR Vùng bắt buộc phải duyệt tuyển bù khẩn cấp 10 shipper chính thức ngay trước sale, vì 6 thời vụ chỉ cứu cánh trong 5 ngày cao điểm, nếu không có người kế thừa thì bưu cục sẽ sập sau ngày 15/11."""),
+Thứ hai là CK Bắc Hòa: Trong file ghi công suất 2.600 nhưng đơn vị lại là energy. Em chia định mức 8 energy ra thì kho này chỉ giao được tầm 325 đơn thôi. Đơn về 405 đơn là vượt 24%, mà toàn tủ với nệm cồng kềnh. Hàng này shipper xe máy lắc đầu, có tuyển thời vụ xe máy cũng không giải quyết được gì, bắt buộc phải xin xe tải nhỏ hoặc ba gác tăng cường.
 
-    ("SLIDE 4: QUYẾT ĐỊNH ĐÒN BẨY QUAN TRỌNG NHẤT: ĐỔI GIỜ XE PHÚ ĐIỀN",
-"""Kính thưa Hội đồng, ở Slide 4 là câu trả lời cho câu hỏi chiến lược: 'Nếu chỉ được chọn duy nhất 1 việc trước 11/11, em chọn việc gì?'
+Thứ ba là Hòa Lộc: Bưu cục báo tỷ lệ đúng giờ cao, nhưng em nhìn kỹ lại thì chiều lấy đang vỡ trận, OPR tụt còn 63%, đơn lấy vượt trần 80%. Anh em bận đi giao nên bỏ bê chiều lấy của khách. Cái này em sẽ rút shipper giao xong sớm quay về gom hàng, và báo KTC cho xe tải ghé thẳng mấy shop lớn bốc hàng luôn, đỡ qua bưu cục trung chuyển."""),
 
-👉 Em chọn: KÉO CHUYẾN XE TẢI ĐẦU TIÊN CỦA PHÚ ĐIỀN TỪ 10H VỀ 6H30 SÁNG!
+    ("SLIDE 4: QUYẾT ĐỊNH ĐÒN BẨY SỐ 1 TRƯỚC NGÀY SALE",
+"""Trong đề bài có hỏi nếu chỉ được chọn làm 1 việc duy nhất trước ngày 11/11 thì em làm gì?
 
-Bởi vì 2 lý do mang tính sống còn:
-• Thứ nhất, Hiệu quả đòn bẩy khổng lồ (+343 đơn/ngày mà KHÔNG TỐN 1 ĐỒNG CHI PHÍ): Xe về lúc 6h30 giúp 20 rider có hàng chia chọn sớm, gán Ca 1 đạt >85%, chạy trọn vẹn 2 ca, khôi phục công suất từ 1.066 lên 1.409 đơn/ngày. Hiệu quả này tương đương với việc tuyển thêm 7 đến 8 bạn thời vụ!
-• Thứ hai, Tính phụ thuộc bên ngoài và Lead time dài nhất: Điều động nội bộ vùng có thể quyết trong 1 buổi sáng, nhưng đổi biểu đồ xe KTC phụ thuộc vào Khối Vận tải bên ngoài, bắt buộc phải chốt lệnh trước 10/11 thì KTC mới kịp sắp xếp tài xế.
+Em chọn ngay việc: Đàm phán với KTC kéo chuyến xe Phú Điền từ 10h về lại 6h30 sáng!
 
-• Kịch bản dự phòng nếu KTC từ chối: Thuê ngay bãi đất trống liền kề 90m² dựng lều dã chiến + Cắt 2 tuyến giáp ranh sang Kênh Đào giao thay. Tuyệt đối không bơm thời vụ vào Phú Điền nếu xe vẫn về lúc 10h!"""),
+Tại sao em ưu tiên việc này số 1?
+Thứ nhất, việc điều quân nội bộ vùng mình chỉ cần một cuộc điện thoại là xử lý xong trong nửa ngày. Nhưng làm việc với KTC là việc liên phòng ban, bên đó họ còn phải sắp xếp tài xế và lộ trình xe, nếu mình không chốt sớm từ hôm nay thì đến ngày sale không bao giờ kịp trở tay.
 
-    ("SLIDE 5: QUẢN TRỊ RỦI RO & HIỆU CHỈNH THỰC ĐỊA TRƯỚC NGÀY SALE 11.11",
-"""Cuối cùng, Slide 5 là bài toán Quản trị rủi ro và Công thức phản ứng nhanh tại trận:
+Thứ hai, kéo được xe về sớm thì bưu cục giải phóng thêm được 343 đơn giao. Nó tương đương với việc em phải tuyển tới 7 bạn thời vụ mà công ty không tốn thêm một đồng chi phí nào. Hiệu quả đòn bẩy nó quá rõ ràng luôn anh."""),
 
-• Phân tích độ nhạy của thị trường: Mô hình rất nhạy ở vùng cận biên. Nếu sàn TMĐT tung voucher làm đơn tạo vượt thêm 10%, toàn vùng sẽ vượt thêm 4.500 đơn; nếu tăng 20% lượng vượt sẽ vọt lên 16.600 đơn trên toàn bộ 14 ngày.
-• Công thức tính nhẩm nhanh tại hiện trường: 
-  1. Số nhân sự cần = Đơn Vượt ÷ (Năng suất chuẩn × 1.1).
-  2. Sức tải thời vụ = 42 đơn/bạn/ngày.
-  3. Đòn bẩy vận hành: Cứ đổi sớm 1 giờ xe = giải phóng +343 đơn = tương đương 7 bạn thời vụ.
-• 5 Loại dữ liệu thực địa cần bổ sung để tối ưu hóa: Cần nắm khoảng tin cậy danh sách shop lớn; tỷ trọng hàng cồng kềnh thực tế ở Bắc Hòa; giờ xe KTC thực tế từng bưu cục; tiến độ tuyển bù 10 shipper Bến Sỏi; và đo lại năng suất tại Lâm Viên 2.
+    ("SLIDE 5: QUẢN TRỊ RỦI RO & DỮ LIỆU THỰC TẾ EM MUỐN XÁC NHẬN THÊM",
+"""Ở Slide cuối cùng này, em muốn nhìn xa hơn một chút về góc độ rủi ro và những cái em muốn trao đổi thêm với team:
 
-LỜI KẾT (15 GIÂY):
-Kính thưa Ban Giám Đốc, phương án của em giải quyết trúng 2 bài toán: Đúng người cho Tây Lâm và Đúng hạ tầng cho Bắc Hòa, bảo vệ vững chắc chỉ số ODR và tối ưu chi phí từng đồng cho công ty. Em xin chân thành cảm ơn và kính mời Ban Giám Đốc cùng Hội đồng đặt câu hỏi phản biện ạ!""")
+Lúc làm bài, em có tính thử độ nhạy: 3 ngày đỉnh 11, 12, 13/11 toàn vùng về tầm 45.000 đơn. Lúc này kho nào cũng chạy căng như dây đàn rồi. Chỉ cần sàn Shopee hay TikTok tung thêm cái voucher làm đơn tạo vọt nhẹ 10% thôi, là 10% của 45.000 đơn đó — tức 4.500 đơn phát sinh — nó đập thẳng vào phần quá tải luôn anh. Lượng đơn vượt của bưu cục sẽ tăng vọt thêm 66%, từ 6.800 lên hơn 11.000 đơn. Cho nên kế hoạch làm ra không thể tính khít 100% được mà lúc nào cũng phải có phương án san tải dự phòng.
+
+Từ bài toán này, em rút ra 3 công thức nhẩm nhanh bỏ túi cho anh em điều hành:
+• Một là: Số nhân sự cần thêm = Đơn vượt chia cho năng suất x 1.1 khi anh em tăng ca.
+• Hai là: Sức tải 1 bạn thời vụ = 70% rider cứng x 1.1, tương đương tầm 42 đơn/bạn.
+• Ba là: Đòn bẩy vận hành: 1 giờ xe về sớm = giải phóng thêm 343 đơn = tương đương tuyển 7 bạn thời vụ.
+
+Và trên thực tế, ngồi xem file Excel thì không thể nào hiểu hết được hiện trường. Nếu bắt tay vào triển khai thật trên địa bàn, em sẽ cần kiểm tra lại ngay 5 điểm ở bảng bên phải:
+1. Check xem danh sách shop lớn xả hàng ngày nào để đưa xe tải vào bốc thẳng từ shop về kho tổng, không để tràn về bưu cục;
+2. Xuống CK Bắc Hòa xem thực tế hàng cồng kềnh chiếm bao nhiêu phần trăm để bố trí xe tải;
+3. Rà soát lại toàn vùng xem ngoài Phú Điền ra còn bưu cục nào bị xe KTC dời giờ nữa không để xử lý dứt điểm;
+4. Giục HR Vùng tiến độ tuyển bù 10 shipper cho Bến Sỏi, vì thời vụ chỉ đỡ được mấy ngày đỉnh, hết sale mà không có người chính thức là bưu cục lại rơi vào bể ngay;
+5. Và theo dõi lại năng suất của Lâm Viên 2 vì anh em mới tách bưu cục chưa ổn định tuyến.
+
+Đấy là toàn bộ cách em bóc tách và tư duy xử lý bài toán này. Em nghĩ làm Capacity thì số liệu mô hình là một chuyện, nhưng quan trọng nhất là phải bám thực tế kho bãi và con người dưới trạm. Anh với team xem qua thấy chỗ nào cần làm rõ hay có góc nhìn nào khác thì trao đổi với em nhé!""")
 ]
 
-for heading, body in slides_content:
+for heading, body in sections:
     h = doc.add_paragraph()
     r_h = h.add_run(heading)
     r_h.font.bold = True
@@ -103,10 +107,9 @@ for heading, body in slides_content:
         r_b = p.add_run(line + '\n')
         r_b.font.size = Pt(11)
         r_b.font.name = 'Calibri'
-        if line.startswith('•') or line.startswith('👉') or line.startswith('LỜI'):
+        if line.startswith('•') or line.startswith('1.') or line.startswith('2.') or line.startswith('3.') or line.startswith('4.') or line.startswith('5.'):
             r_b.font.bold = True
 
 save_path = r'C:\Users\lap4all\Desktop\BAI_NOP_CAPACITY_GHN\KICH_BAN_THUYET_TRINH_5_SLIDES.docx'
 doc.save(save_path)
-print('Saved successfully to:', save_path)
-
+print('Updated 100% human conversational script successfully to:', save_path)
