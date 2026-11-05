@@ -1,19 +1,19 @@
 {
   "region": {
-    "total_cost": 2023.13,
-    "total_cost_formatted": "2.023.127.434 đ",
-    "total_trips": 2104,
+    "total_cost": 2028.55,
+    "total_cost_formatted": "2.028.554.029 đ",
+    "total_trips": 2110,
     "avg_cost_per_trip": 0.96,
-    "avg_cost_per_trip_formatted": "961.562 đ/chuyến",
+    "avg_cost_per_trip_formatted": "961.400 đ/chuyến",
     "ncc_count": 7,
     "ktc_count": 7,
     "total_trucks": 60,
-    "last_updated": "10:52 - 05/11/2026"
+    "last_updated": "11:27 - 05/11/2026"
   },
   "surge_fixed": {
-    "fixed_cost": 2023.13,
+    "fixed_cost": 2028.55,
     "fixed_cost_pct": 100.0,
-    "fixed_trips": 2104,
+    "fixed_trips": 2110,
     "surge_cost": 0.0,
     "surge_cost_pct": 0.0,
     "surge_trips": 0,
@@ -61,15 +61,15 @@
     },
     {
       "ktc": "KTC Đắk Nông",
-      "total_cost": 256.05,
-      "total_cost_raw": 256052920.00000015,
+      "total_cost": 256.51,
+      "total_cost_raw": 256507547.20000046,
       "total_trips": 238,
       "cost_per_trip": 1.08,
-      "cost_per_trip_raw": 1075852.6050420175,
-      "fixed_cost": 256.05,
+      "cost_per_trip_raw": 1077762.8033613465,
+      "fixed_cost": 256.51,
       "surge_cost": 0.0,
       "surge_pct": 0.0,
-      "primary_ncc": "Tốt và Rẻ, Lâm Ngọc Thành",
+      "primary_ncc": "Lâm Ngọc Thành, Trâm Hoá",
       "truck_count": 7
     },
     {
@@ -87,15 +87,15 @@
     },
     {
       "ktc": "KTC Bảo Lộc",
-      "total_cost": 82.78,
-      "total_cost_raw": 82782724.0,
-      "total_trips": 73,
-      "cost_per_trip": 1.13,
-      "cost_per_trip_raw": 1134009.917808219,
-      "fixed_cost": 82.78,
+      "total_cost": 87.75,
+      "total_cost_raw": 87754692.0,
+      "total_trips": 79,
+      "cost_per_trip": 1.11,
+      "cost_per_trip_raw": 1110818.8860759493,
+      "fixed_cost": 87.75,
       "surge_cost": 0.0,
       "surge_pct": 0.0,
-      "primary_ncc": "Công Định, NAK",
+      "primary_ncc": "NAK, Công Định",
       "truck_count": 6
     },
     {
@@ -124,7 +124,7 @@
       "surge_cost": 0.0,
       "surge_pct": 0.0,
       "truck_count": 37,
-      "active_ktcs": "KTC Bắc Nha Trang, KTC Khánh Hòa, KTC Bình Thuận, KTC Nam Nha Trang, KTC Đức Trọng"
+      "active_ktcs": "KTC Đức Trọng, KTC Khánh Hòa, KTC Bắc Nha Trang, KTC Bình Thuận, KTC Nam Nha Trang"
     },
     {
       "ncc": "NAK",
@@ -141,12 +141,12 @@
     },
     {
       "ncc": "Lâm Ngọc Thành",
-      "total_cost": 180.92,
-      "total_cost_raw": 180917511.80000052,
+      "total_cost": 181.37,
+      "total_cost_raw": 181372139.00000063,
       "total_trips": 155,
       "cost_per_trip": 1.17,
-      "cost_per_trip_raw": 1167209.7535483905,
-      "fixed_cost": 180.92,
+      "cost_per_trip_raw": 1170142.8322580685,
+      "fixed_cost": 181.37,
       "surge_cost": 0.0,
       "surge_pct": 0.0,
       "truck_count": 5,
@@ -166,6 +166,19 @@
       "active_ktcs": "KTC Bắc Nha Trang"
     },
     {
+      "ncc": "Công Định",
+      "total_cost": 49.52,
+      "total_cost_raw": 49516740.0,
+      "total_trips": 59,
+      "cost_per_trip": 0.84,
+      "cost_per_trip_raw": 839266.779661017,
+      "fixed_cost": 49.52,
+      "surge_cost": 0.0,
+      "surge_pct": 0.0,
+      "truck_count": 4,
+      "active_ktcs": "KTC Bảo Lộc"
+    },
+    {
       "ncc": "Tốt và Rẻ",
       "total_cost": 45.94,
       "total_cost_raw": 45941797.20000003,
@@ -177,19 +190,6 @@
       "surge_pct": 0.0,
       "truck_count": 1,
       "active_ktcs": "KTC Đắk Nông"
-    },
-    {
-      "ncc": "Công Định",
-      "total_cost": 44.54,
-      "total_cost_raw": 44544772.0,
-      "total_trips": 53,
-      "cost_per_trip": 0.84,
-      "cost_per_trip_raw": 840467.3962264151,
-      "fixed_cost": 44.54,
-      "surge_cost": 0.0,
-      "surge_pct": 0.0,
-      "truck_count": 4,
-      "active_ktcs": "KTC Bảo Lộc"
     },
     {
       "ncc": "Trâm Hoá",
@@ -478,6 +478,36 @@
     },
     {
       "ncc": "Công Định",
+      "date": "04/11/2026",
+      "date_iso": "2026-11-04",
+      "truck": "49H-04910",
+      "capacity": "1900",
+      "route": "Kho Chuyển Tiếp Bảo Lộc -> (LDO) 1 Bảo Lộc -> (LDO) Bảo Lâm 1 -> Kho Chuyển Tiếp Bảo Lộc",
+      "ktc": "KTC Bảo Lộc",
+      "type": "Cố định",
+      "cost_str": "710.281 đ",
+      "cost": 710281.0,
+      "trips_equivalent": 1,
+      "trip_code": "E2611039DUAVQXI",
+      "ontime": "100,00%"
+    },
+    {
+      "ncc": "Công Định",
+      "date": "04/11/2026",
+      "date_iso": "2026-11-04",
+      "truck": "49H-04910",
+      "capacity": "1900",
+      "route": "Kho Chuyển Tiếp Bảo Lộc -> (LDO) 1 Bảo Lộc -> (LDO) Bảo Lâm 1 -> (LDO) ĐL 1 Bảo Lộc -> (LDO) 1 Bảo Lộc -> Kho Chuyển Tiếp Bảo Lộc",
+      "ktc": "KTC Bảo Lộc",
+      "type": "Cố định",
+      "cost_str": "710.281 đ",
+      "cost": 710281.0,
+      "trips_equivalent": 1,
+      "trip_code": "E261103LL3P6752",
+      "ontime": "66,67%"
+    },
+    {
+      "ncc": "Công Định",
       "date": "26/10/2026",
       "date_iso": "2026-10-26",
       "truck": "49H-04926",
@@ -729,6 +759,36 @@
       "cost": 913219.0,
       "trips_equivalent": 1,
       "trip_code": "E2611022N3S7LGI",
+      "ontime": "100,00%"
+    },
+    {
+      "ncc": "Công Định",
+      "date": "04/11/2026",
+      "date_iso": "2026-11-04",
+      "truck": "49H-04926",
+      "capacity": "1900",
+      "route": "Kho Chuyển Tiếp Bảo Lộc -> (LDO) Hòa Ninh -> (LDO) Di Linh -> (LDO) ĐG Đinh Trang Thượng -> Kho Chuyển Tiếp Bảo Lộc",
+      "ktc": "KTC Bảo Lộc",
+      "type": "Cố định",
+      "cost_str": "1.014.687 đ",
+      "cost": 1014687.0,
+      "trips_equivalent": 1,
+      "trip_code": "E261103GIYZK30F",
+      "ontime": "100,00%"
+    },
+    {
+      "ncc": "Công Định",
+      "date": "04/11/2026",
+      "date_iso": "2026-11-04",
+      "truck": "49H-04926",
+      "capacity": "1900",
+      "route": "Kho Chuyển Tiếp Bảo Lộc -> (LDO) Hòa Ninh -> (LDO) Di Linh -> (LDO) Hòa Ninh -> Kho Chuyển Tiếp Bảo Lộc",
+      "ktc": "KTC Bảo Lộc",
+      "type": "Cố định",
+      "cost_str": "913.219 đ",
+      "cost": 913219.0,
+      "trips_equivalent": 1,
+      "trip_code": "E261103GZQ6AZ2T",
       "ontime": "100,00%"
     },
     {
@@ -1000,6 +1060,36 @@
       "trips_equivalent": 1,
       "trip_code": "E2611027U1BR9H4",
       "ontime": "90,00%"
+    },
+    {
+      "ncc": "Công Định",
+      "date": "04/11/2026",
+      "date_iso": "2026-11-04",
+      "truck": "49H-09142",
+      "capacity": "1900",
+      "route": "Kho Chuyển Tiếp Bảo Lộc -> (LDO) 3 Bảo Lộc -> (LDO) B'Lao -> (LDO) Bảo Lâm 3 -> Kho Chuyển Tiếp Bảo Lộc",
+      "ktc": "KTC Bảo Lộc",
+      "type": "Cố định",
+      "cost_str": "710.281 đ",
+      "cost": 710281.0,
+      "trips_equivalent": 1,
+      "trip_code": "E261103A6495BGI",
+      "ontime": "100,00%"
+    },
+    {
+      "ncc": "Công Định",
+      "date": "04/11/2026",
+      "date_iso": "2026-11-04",
+      "truck": "49H-09142",
+      "capacity": "1900",
+      "route": "Kho Chuyển Tiếp Bảo Lộc -> (LDO) 3 Bảo Lộc -> (LDO) B'Lao -> (LDO) Bảo Lâm 3 -> (LDO) B'Lao -> Kho Chuyển Tiếp Bảo Lộc -> (LDO) 3 Bảo Lộc -> Kho Chuyển Tiếp Bảo Lộc",
+      "ktc": "KTC Bảo Lộc",
+      "type": "Cố định",
+      "cost_str": "913.219 đ",
+      "cost": 913219.0,
+      "trips_equivalent": 1,
+      "trip_code": "E2611034WKJFJDH",
+      "ontime": "87,50%"
     },
     {
       "ncc": "Tốt và Rẻ",
@@ -4553,8 +4643,8 @@
       "cost_str": "2.360.861 đ",
       "cost": 2360860.8,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E261031WDUA6DLW",
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -4568,8 +4658,8 @@
       "cost_str": "2.360.861 đ",
       "cost": 2360860.8,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E261101NFAJYPNV",
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -4583,8 +4673,8 @@
       "cost_str": "2.360.861 đ",
       "cost": 2360860.8,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E261102RE1O63XG",
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -4592,14 +4682,14 @@
       "date_iso": "2026-11-04",
       "truck": "47H-00730",
       "capacity": "3500",
-      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Bắc Gia Nghĩa -> (DNO) Trường Xuân -> (DNO) Đức An -> (DNO) Đức Lập -> (DNO) ĐG Đắk Sắk -> (DNO) ĐG Đắk Mil -> Kho Trung Chuyển Đắk Lắk -> (DNO) Cư Jút -> (DNO) Krông Nô -> (DNO) Đức Lập -> (DNO) Đức An -> (DNO) Trường Xuân -> (DNO) Bắc Gia Nghĩa -> Kho Chuyển Tiếp Đắk Nông",
+      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Bắc Gia Nghĩa -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Trường Xuân -> (DNO) Đức An -> (DNO) Đức Lập -> (DNO) ĐG Đắk Sắk -> (DNO) ĐG Đắk Mil -> Kho Trung Chuyển Đắk Lắk -> (DNO) Cư Jút -> (DNO) Krông Nô -> (DNO) Đức Lập -> (DNO) Đức An -> (DNO) Trường Xuân -> (DNO) Bắc Gia Nghĩa -> Kho Chuyển Tiếp Đắk Nông",
       "ktc": "KTC Đắk Nông",
       "type": "Cố định",
-      "cost_str": "2.263.738 đ",
-      "cost": 2263737.6,
+      "cost_str": "2.360.861 đ",
+      "cost": 2360860.8,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E2611036ZITLC7Z",
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -5018,8 +5108,8 @@
       "cost_str": "910.551 đ",
       "cost": 910551.0,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E261031QMI0U8Q6",
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -5033,8 +5123,8 @@
       "cost_str": "910.551 đ",
       "cost": 910551.0,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E261101KZQ2NV6G",
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -5048,8 +5138,8 @@
       "cost_str": "910.551 đ",
       "cost": 910551.0,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E261102R5I1CF0H",
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -5063,8 +5153,8 @@
       "cost_str": "910.551 đ",
       "cost": 910551.0,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E261103RV78V5XS",
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -5483,8 +5573,8 @@
       "cost_str": "681.811 đ",
       "cost": 681811.2,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E261031IV3CL8MN",
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -5498,8 +5588,8 @@
       "cost_str": "681.811 đ",
       "cost": 681811.2,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E261101BSU61ZEZ",
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -5513,8 +5603,8 @@
       "cost_str": "681.811 đ",
       "cost": 681811.2,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E2611028GAG5ZPN",
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -5528,8 +5618,8 @@
       "cost_str": "681.811 đ",
       "cost": 681811.2,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E261103N29DFD7Q",
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -5942,14 +6032,14 @@
       "date_iso": "2026-11-01",
       "truck": "48H-02221",
       "capacity": "1900",
-      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> Kho Chuyển Tiếp Đắk Nông",
+      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 1 -> Kho Chuyển Tiếp Đắk Nông",
       "ktc": "KTC Đắk Nông",
       "type": "Cố định",
-      "cost_str": "882.907 đ",
-      "cost": 882907.2,
+      "cost_str": "904.613 đ",
+      "cost": 904612.8,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E261031EKYWG2W0",
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -5957,14 +6047,14 @@
       "date_iso": "2026-11-02",
       "truck": "48H-02221",
       "capacity": "1900",
-      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 2 -> Kho Chuyển Tiếp Đắk Nông",
+      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 1 -> Kho Chuyển Tiếp Đắk Nông",
       "ktc": "KTC Đắk Nông",
       "type": "Cố định",
-      "cost_str": "900.144 đ",
-      "cost": 900144.0,
+      "cost_str": "904.613 đ",
+      "cost": 904612.8,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E261101D78R03NI",
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -5972,14 +6062,14 @@
       "date_iso": "2026-11-03",
       "truck": "48H-02221",
       "capacity": "1900",
-      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 2 -> Kho Chuyển Tiếp Đắk Nông",
+      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 1 -> Kho Chuyển Tiếp Đắk Nông",
       "ktc": "KTC Đắk Nông",
       "type": "Cố định",
-      "cost_str": "900.144 đ",
-      "cost": 900144.0,
+      "cost_str": "904.613 đ",
+      "cost": 904612.8,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E261102DANXPPS3",
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -5987,14 +6077,14 @@
       "date_iso": "2026-11-04",
       "truck": "48H-02221",
       "capacity": "1900",
-      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> Kho Chuyển Tiếp Đắk Nông",
+      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 1 -> Kho Chuyển Tiếp Đắk Nông",
       "ktc": "KTC Đắk Nông",
       "type": "Cố định",
-      "cost_str": "882.907 đ",
-      "cost": 882907.2,
+      "cost_str": "904.613 đ",
+      "cost": 904612.8,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E261103AHJEULZN",
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -6002,14 +6092,14 @@
       "date_iso": "2026-11-05",
       "truck": "48H-02221",
       "capacity": "1900",
-      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> Kho Chuyển Tiếp Đắk Nông",
+      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 1 -> Kho Chuyển Tiếp Đắk Nông",
       "ktc": "KTC Đắk Nông",
       "type": "Cố định",
-      "cost_str": "882.907 đ",
-      "cost": 882907.2,
+      "cost_str": "904.613 đ",
+      "cost": 904612.8,
       "trips_equivalent": 1,
       "trip_code": "",
-      "ontime": ""
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -6017,14 +6107,14 @@
       "date_iso": "2026-11-06",
       "truck": "48H-02221",
       "capacity": "1900",
-      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> Kho Chuyển Tiếp Đắk Nông",
+      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 1 -> Kho Chuyển Tiếp Đắk Nông",
       "ktc": "KTC Đắk Nông",
       "type": "Cố định",
-      "cost_str": "882.907 đ",
-      "cost": 882907.2,
+      "cost_str": "904.613 đ",
+      "cost": 904612.8,
       "trips_equivalent": 1,
       "trip_code": "",
-      "ontime": ""
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -6032,14 +6122,14 @@
       "date_iso": "2026-11-07",
       "truck": "48H-02221",
       "capacity": "1900",
-      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> Kho Chuyển Tiếp Đắk Nông",
+      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 1 -> Kho Chuyển Tiếp Đắk Nông",
       "ktc": "KTC Đắk Nông",
       "type": "Cố định",
-      "cost_str": "882.907 đ",
-      "cost": 882907.2,
+      "cost_str": "904.613 đ",
+      "cost": 904612.8,
       "trips_equivalent": 1,
       "trip_code": "",
-      "ontime": ""
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -6047,14 +6137,14 @@
       "date_iso": "2026-11-08",
       "truck": "48H-02221",
       "capacity": "1900",
-      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> Kho Chuyển Tiếp Đắk Nông",
+      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 1 -> Kho Chuyển Tiếp Đắk Nông",
       "ktc": "KTC Đắk Nông",
       "type": "Cố định",
-      "cost_str": "882.907 đ",
-      "cost": 882907.2,
+      "cost_str": "904.613 đ",
+      "cost": 904612.8,
       "trips_equivalent": 1,
       "trip_code": "",
-      "ontime": ""
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -6062,14 +6152,14 @@
       "date_iso": "2026-11-09",
       "truck": "48H-02221",
       "capacity": "1900",
-      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> Kho Chuyển Tiếp Đắk Nông",
+      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 1 -> Kho Chuyển Tiếp Đắk Nông",
       "ktc": "KTC Đắk Nông",
       "type": "Cố định",
-      "cost_str": "882.907 đ",
-      "cost": 882907.2,
+      "cost_str": "904.613 đ",
+      "cost": 904612.8,
       "trips_equivalent": 1,
       "trip_code": "",
-      "ontime": ""
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -6077,14 +6167,14 @@
       "date_iso": "2026-11-10",
       "truck": "48H-02221",
       "capacity": "1900",
-      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 2 -> Kho Chuyển Tiếp Đắk Nông",
+      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 1 -> Kho Chuyển Tiếp Đắk Nông",
       "ktc": "KTC Đắk Nông",
       "type": "Cố định",
-      "cost_str": "900.144 đ",
-      "cost": 900144.0,
+      "cost_str": "904.613 đ",
+      "cost": 904612.8,
       "trips_equivalent": 1,
       "trip_code": "",
-      "ontime": ""
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -6092,14 +6182,14 @@
       "date_iso": "2026-11-11",
       "truck": "48H-02221",
       "capacity": "1900",
-      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> Kho Chuyển Tiếp Đắk Nông",
+      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 1 -> Kho Chuyển Tiếp Đắk Nông",
       "ktc": "KTC Đắk Nông",
       "type": "Cố định",
-      "cost_str": "882.907 đ",
-      "cost": 882907.2,
+      "cost_str": "904.613 đ",
+      "cost": 904612.8,
       "trips_equivalent": 1,
       "trip_code": "",
-      "ontime": ""
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -6107,14 +6197,14 @@
       "date_iso": "2026-11-12",
       "truck": "48H-02221",
       "capacity": "1900",
-      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> (DNO) ĐL Nam Gia Nghĩa 2 -> Kho Chuyển Tiếp Đắk Nông",
+      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 1 -> Kho Chuyển Tiếp Đắk Nông",
       "ktc": "KTC Đắk Nông",
       "type": "Cố định",
-      "cost_str": "824.174 đ",
-      "cost": 824174.4,
+      "cost_str": "904.613 đ",
+      "cost": 904612.8,
       "trips_equivalent": 1,
       "trip_code": "",
-      "ontime": ""
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -6122,14 +6212,14 @@
       "date_iso": "2026-11-13",
       "truck": "48H-02221",
       "capacity": "1900",
-      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 2 -> Kho Chuyển Tiếp Đắk Nông",
+      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 1 -> Kho Chuyển Tiếp Đắk Nông",
       "ktc": "KTC Đắk Nông",
       "type": "Cố định",
-      "cost_str": "900.144 đ",
-      "cost": 900144.0,
+      "cost_str": "904.613 đ",
+      "cost": 904612.8,
       "trips_equivalent": 1,
       "trip_code": "",
-      "ontime": ""
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -6137,14 +6227,14 @@
       "date_iso": "2026-11-14",
       "truck": "48H-02221",
       "capacity": "1900",
-      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> Kho Chuyển Tiếp Đắk Nông",
+      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 1 -> Kho Chuyển Tiếp Đắk Nông",
       "ktc": "KTC Đắk Nông",
       "type": "Cố định",
-      "cost_str": "882.907 đ",
-      "cost": 882907.2,
+      "cost_str": "904.613 đ",
+      "cost": 904612.8,
       "trips_equivalent": 1,
       "trip_code": "",
-      "ontime": ""
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -6152,14 +6242,14 @@
       "date_iso": "2026-11-15",
       "truck": "48H-02221",
       "capacity": "1900",
-      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 2 -> Kho Chuyển Tiếp Đắk Nông",
+      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 1 -> Kho Chuyển Tiếp Đắk Nông",
       "ktc": "KTC Đắk Nông",
       "type": "Cố định",
-      "cost_str": "900.144 đ",
-      "cost": 900144.0,
+      "cost_str": "904.613 đ",
+      "cost": 904612.8,
       "trips_equivalent": 1,
       "trip_code": "",
-      "ontime": ""
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -6167,14 +6257,14 @@
       "date_iso": "2026-11-16",
       "truck": "48H-02221",
       "capacity": "1900",
-      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> Kho Chuyển Tiếp Đắk Nông",
+      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 1 -> Kho Chuyển Tiếp Đắk Nông",
       "ktc": "KTC Đắk Nông",
       "type": "Cố định",
-      "cost_str": "884.822 đ",
-      "cost": 884822.4,
+      "cost_str": "904.613 đ",
+      "cost": 904612.8,
       "trips_equivalent": 1,
       "trip_code": "",
-      "ontime": ""
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -6182,14 +6272,14 @@
       "date_iso": "2026-11-17",
       "truck": "48H-02221",
       "capacity": "1900",
-      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> Kho Chuyển Tiếp Đắk Nông",
+      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 1 -> Kho Chuyển Tiếp Đắk Nông",
       "ktc": "KTC Đắk Nông",
       "type": "Cố định",
-      "cost_str": "884.822 đ",
-      "cost": 884822.4,
+      "cost_str": "904.613 đ",
+      "cost": 904612.8,
       "trips_equivalent": 1,
       "trip_code": "",
-      "ontime": ""
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -6197,14 +6287,14 @@
       "date_iso": "2026-11-18",
       "truck": "48H-02221",
       "capacity": "1900",
-      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> Kho Chuyển Tiếp Đắk Nông",
+      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 1 -> Kho Chuyển Tiếp Đắk Nông",
       "ktc": "KTC Đắk Nông",
       "type": "Cố định",
-      "cost_str": "884.822 đ",
-      "cost": 884822.4,
+      "cost_str": "904.613 đ",
+      "cost": 904612.8,
       "trips_equivalent": 1,
       "trip_code": "",
-      "ontime": ""
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -6212,14 +6302,14 @@
       "date_iso": "2026-11-19",
       "truck": "48H-02221",
       "capacity": "1900",
-      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 2 -> Kho Chuyển Tiếp Đắk Nông",
+      "route": "Kho Chuyển Tiếp Đắk Nông -> (DNO) Nhân Cơ 1 -> (DNO) Tuy Đức -> (DNO) Quảng Tín -> (DNO) Kiến Đức -> (DNO) Nhân Cơ 1 -> Kho Chuyển Tiếp Đắk Nông -> (DNO) Đông Gia Nghĩa -> (DNO) ĐL Nam Gia Nghĩa 1 -> Kho Chuyển Tiếp Đắk Nông",
       "ktc": "KTC Đắk Nông",
       "type": "Cố định",
       "cost_str": "904.613 đ",
       "cost": 904612.8,
       "trips_equivalent": 1,
       "trip_code": "",
-      "ontime": ""
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -6413,8 +6503,8 @@
       "cost_str": "1.015.424 đ",
       "cost": 1015423.8,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E261031VEM5B2YC",
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -6428,8 +6518,8 @@
       "cost_str": "1.015.424 đ",
       "cost": 1015423.8,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E261101T4M7CXYI",
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -6443,8 +6533,8 @@
       "cost_str": "1.015.424 đ",
       "cost": 1015423.8,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E2611021JHJKZYL",
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -6458,8 +6548,8 @@
       "cost_str": "1.015.424 đ",
       "cost": 1015423.8,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E261103NZGLON50",
+      "ontime": "100,00%"
     },
     {
       "ncc": "Lâm Ngọc Thành",
@@ -6878,8 +6968,8 @@
       "cost_str": "941.729 đ",
       "cost": 941729.4,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E261031I9QKS4G3",
+      "ontime": "1"
     },
     {
       "ncc": "Trâm Hoá",
@@ -6893,8 +6983,8 @@
       "cost_str": "941.729 đ",
       "cost": 941729.4,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E261101ZNPWEGSP",
+      "ontime": "1"
     },
     {
       "ncc": "Trâm Hoá",
@@ -6908,8 +6998,8 @@
       "cost_str": "941.729 đ",
       "cost": 941729.4,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E261102TZY2942U",
+      "ontime": "1"
     },
     {
       "ncc": "Trâm Hoá",
@@ -6923,8 +7013,8 @@
       "cost_str": "941.729 đ",
       "cost": 941729.4,
       "trips_equivalent": 1,
-      "trip_code": "",
-      "ontime": ""
+      "trip_code": "E261103O07BRNRE",
+      "ontime": "1"
     },
     {
       "ncc": "Trâm Hoá",
@@ -28722,5 +28812,5 @@
       "ontime": "100%"
     }
   ],
-  "all_trips_count": 1901
+  "all_trips_count": 1907
 }
