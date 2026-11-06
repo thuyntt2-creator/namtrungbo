@@ -8,7 +8,7 @@
     "ncc_count": 7,
     "ktc_count": 7,
     "total_trucks": 61,
-    "last_updated": "08:01 - 06/11/2026"
+    "last_updated": "08:35 - 06/11/2026"
   },
   "surge_fixed": {
     "fixed_cost": 2048.78,
@@ -56,7 +56,7 @@
       "fixed_cost": 260.48,
       "surge_cost": 0.0,
       "surge_pct": 0.0,
-      "primary_ncc": "Mạnh Cường, NAK",
+      "primary_ncc": "NAK, Mạnh Cường",
       "truck_count": 9
     },
     {
@@ -69,7 +69,7 @@
       "fixed_cost": 256.34,
       "surge_cost": 0.0,
       "surge_pct": 0.0,
-      "primary_ncc": "Lâm Ngọc Thành, Trâm Hoá",
+      "primary_ncc": "Tốt và Rẻ, Trâm Hoá",
       "truck_count": 7
     },
     {
@@ -124,7 +124,7 @@
       "surge_cost": 0.0,
       "surge_pct": 0.0,
       "truck_count": 38,
-      "active_ktcs": "KTC Nam Nha Trang, KTC Đức Trọng, KTC Khánh Hòa, KTC Bắc Nha Trang, KTC Bình Thuận"
+      "active_ktcs": "KTC Bắc Nha Trang, KTC Khánh Hòa, KTC Bình Thuận, KTC Đức Trọng, KTC Nam Nha Trang"
     },
     {
       "ncc": "NAK",
