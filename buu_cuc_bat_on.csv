@@ -8,7 +8,7 @@ Tổng số lượng BC cảnh báo,"Logic:
 - Nếu %GTC < 70% Mốc %GTC tốt nhất trong lịch sử => Cảnh báo",,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,11/6/2026,,11/5/2026,,03/11/2026,,,,06/11/2026,,,,,,,,Thời gian cập nhật 07/11/2026 08:30:55,,,,,,,
+,,,,,,,11/6/2026,,11/5/2026,,03/11/2026,,,,06/11/2026,,,,,,,,Thời gian cập nhật 07/11/2026 09:00:26,,,,,,,
 Vùng,Tỉnh,ID Bưu cục,Tên Bưu cục,%GTC_TB 7 ngày (1),%GTC_tốt nhất (6 tháng gần nhất. Số tính theo tuần) (2),%Tỷ trọng (1)/(2),%GTC_N-1,VolGTC_N-1,%GTC_N-2,VolGTC_N-2,%GTC_N-3,VolGTC_N-3,Tỷ trọng vol cần giao / toàn quốc ngày N-1,VolGTC_TB 7 ngày,"Tổng Vol cần giao
 (3) + (4)","Vol_Tồn
 (3)","Vol_Mới
