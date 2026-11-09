@@ -1,19 +1,19 @@
 {
   "region": {
-    "total_cost": 2184.4,
-    "total_cost_formatted": "2.184.402.502 đ",
-    "total_trips": 2206,
+    "total_cost": 2190.83,
+    "total_cost_formatted": "2.190.830.246 đ",
+    "total_trips": 2210,
     "avg_cost_per_trip": 0.99,
-    "avg_cost_per_trip_formatted": "990.210 đ/chuyến",
+    "avg_cost_per_trip_formatted": "991.326 đ/chuyến",
     "ncc_count": 7,
     "ktc_count": 7,
     "total_trucks": 61,
-    "last_updated": "11:28 - 09/11/2026"
+    "last_updated": "12:03 - 09/11/2026"
   },
   "surge_fixed": {
-    "fixed_cost": 2184.4,
+    "fixed_cost": 2190.83,
     "fixed_cost_pct": 100.0,
-    "fixed_trips": 2206,
+    "fixed_trips": 2210,
     "surge_cost": 0.0,
     "surge_cost_pct": 0.0,
     "surge_trips": 0,
@@ -48,12 +48,12 @@
     },
     {
       "ktc": "KTC Đức Trọng",
-      "total_cost": 336.44,
-      "total_cost_raw": 336436491.5999993,
-      "total_trips": 248,
+      "total_cost": 342.86,
+      "total_cost_raw": 342864235.5999993,
+      "total_trips": 252,
       "cost_per_trip": 1.36,
-      "cost_per_trip_raw": 1356598.75645161,
-      "fixed_cost": 336.44,
+      "cost_per_trip_raw": 1360572.3634920607,
+      "fixed_cost": 342.86,
       "surge_cost": 0.0,
       "surge_pct": 0.0,
       "primary_ncc": "Mạnh Cường, NAK",
@@ -69,7 +69,7 @@
       "fixed_cost": 256.34,
       "surge_cost": 0.0,
       "surge_pct": 0.0,
-      "primary_ncc": "Trâm Hoá, Tốt và Rẻ",
+      "primary_ncc": "Tốt và Rẻ, Lâm Ngọc Thành",
       "truck_count": 7
     },
     {
@@ -95,7 +95,7 @@
       "fixed_cost": 118.27,
       "surge_cost": 0.0,
       "surge_pct": 0.0,
-      "primary_ncc": "NAK, Công Định",
+      "primary_ncc": "Công Định, NAK",
       "truck_count": 6
     },
     {
@@ -124,16 +124,16 @@
       "surge_cost": 0.0,
       "surge_pct": 0.0,
       "truck_count": 38,
-      "active_ktcs": "KTC Khánh Hòa, KTC Nam Nha Trang, KTC Bắc Nha Trang, KTC Đức Trọng, KTC Bình Thuận"
+      "active_ktcs": "KTC Đức Trọng, KTC Nam Nha Trang, KTC Bắc Nha Trang, KTC Bình Thuận, KTC Khánh Hòa"
     },
     {
       "ncc": "NAK",
-      "total_cost": 329.32,
-      "total_cost_raw": 329321018.0,
-      "total_trips": 246,
+      "total_cost": 335.75,
+      "total_cost_raw": 335748762.0,
+      "total_trips": 250,
       "cost_per_trip": 1.34,
-      "cost_per_trip_raw": 1338703.325203252,
-      "fixed_cost": 329.32,
+      "cost_per_trip_raw": 1342995.048,
+      "fixed_cost": 335.75,
       "surge_cost": 0.0,
       "surge_pct": 0.0,
       "truck_count": 9,
@@ -5620,6 +5620,66 @@
       "trips_equivalent": 1,
       "trip_code": "E261104BC0EEYY5",
       "ontime": "1"
+    },
+    {
+      "ncc": "NAK",
+      "date": "05/11/2026",
+      "date_iso": "2026-11-05",
+      "truck": "29H-76917",
+      "capacity": "1900",
+      "route": "Kho Chuyển Tiếp Đức Trọng -> (LDO) Đơn Dương -> (LDO) D'Ran -> (LDO) Nam Ban Lâm Hà -> (LDO) Tân Hà Lâm Hà -> Kho Chuyển Tiếp Đức Trọng",
+      "ktc": "KTC Đức Trọng",
+      "type": "Cố định",
+      "cost_str": "1.606.936 đ",
+      "cost": 1606936.0,
+      "trips_equivalent": 1,
+      "trip_code": "E261105SM9G98PJ",
+      "ontime": ""
+    },
+    {
+      "ncc": "NAK",
+      "date": "06/11/2026",
+      "date_iso": "2026-11-06",
+      "truck": "29H-76917",
+      "capacity": "1900",
+      "route": "Kho Chuyển Tiếp Đức Trọng -> (LDO) Đơn Dương -> (LDO) D'Ran -> (LDO) Nam Ban Lâm Hà -> (LDO) Tân Hà Lâm Hà -> Kho Chuyển Tiếp Đức Trọng",
+      "ktc": "KTC Đức Trọng",
+      "type": "Cố định",
+      "cost_str": "1.606.936 đ",
+      "cost": 1606936.0,
+      "trips_equivalent": 1,
+      "trip_code": "E261106A0C99AYX",
+      "ontime": ""
+    },
+    {
+      "ncc": "NAK",
+      "date": "07/11/2026",
+      "date_iso": "2026-11-07",
+      "truck": "29H-76917",
+      "capacity": "1900",
+      "route": "Kho Chuyển Tiếp Đức Trọng -> (LDO) Đơn Dương -> (LDO) D'Ran -> (LDO) Nam Ban Lâm Hà -> (LDO) Tân Hà Lâm Hà -> Kho Chuyển Tiếp Đức Trọng",
+      "ktc": "KTC Đức Trọng",
+      "type": "Cố định",
+      "cost_str": "1.606.936 đ",
+      "cost": 1606936.0,
+      "trips_equivalent": 1,
+      "trip_code": "E261107TC72ELJF",
+      "ontime": ""
+    },
+    {
+      "ncc": "NAK",
+      "date": "08/11/2026",
+      "date_iso": "2026-11-08",
+      "truck": "29H-76917",
+      "capacity": "1900",
+      "route": "Kho Chuyển Tiếp Đức Trọng -> (LDO) Đơn Dương -> (LDO) D'Ran -> (LDO) Nam Ban Lâm Hà -> (LDO) Tân Hà Lâm Hà -> Kho Chuyển Tiếp Đức Trọng",
+      "ktc": "KTC Đức Trọng",
+      "type": "Cố định",
+      "cost_str": "1.606.936 đ",
+      "cost": 1606936.0,
+      "trips_equivalent": 1,
+      "trip_code": "E261108T0EZY8LB",
+      "ontime": ""
     },
     {
       "ncc": "NAK",
@@ -30252,5 +30312,5 @@
       "ontime": "100%"
     }
   ],
-  "all_trips_count": 2003
+  "all_trips_count": 2007
 }
