@@ -4875,13 +4875,9 @@ def home():
 @app.route('/meeting')
 @app.route('/bao-cao-hop')
 @app.route('/bao-cao-tuan')
-@app.route('/index.html')
 @app.route('/dashboard')
 def meeting_dashboard():
-    root_dir = os.path.dirname(os.path.abspath(__file__))
-    response = send_from_directory(root_dir, 'index.html')
-    response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate, max-age=0'
-    return response
+    return redirect('/')
 
 @app.route('/slide')
 @app.route('/showcase')
@@ -4983,10 +4979,7 @@ def api_sync_sheets_oauth():
         sync_script = os.path.join(root_dir, 'sync_google_sheets_oauth.py')
         res1 = subprocess.run([sys.executable, sync_script], cwd=root_dir, capture_output=True, text=True, timeout=120)
         
-        # 2. Run build_data_js.py to refresh weekly meeting data (/hop)
-        build_script = os.path.join(root_dir, 'build_data_js.py')
-        if os.path.exists(build_script):
-            subprocess.run([sys.executable, build_script], cwd=root_dir, capture_output=True, text=True, timeout=120)
+        # Weekly report build step removed (using local only)
 
         # 3. Enrich with auxiliary scripts (COD, Aging, Truy Thu)
         for s_name in ['parse_4_cod_tabs.py', 'calc_aging_buckets.py', 'process_truy_thu_report.py']:

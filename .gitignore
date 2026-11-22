@@ -62,3 +62,16 @@ __pycache__/
 
 # Cache files
 .cache_*.pkl
+
+scratch/cdp_*
+browser_profile/
+*.crx
+*.ort
+
+
+data.js
+data.json
+build_data_js.py
+BaoCao_Tuan_*.xlsx
+sync_weekly_report.py
+

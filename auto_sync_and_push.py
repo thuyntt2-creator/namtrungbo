@@ -69,10 +69,11 @@ try:
         if os.path.exists(s_path):
             subprocess.run([sys.executable, s_path], cwd=cwd, capture_output=True, text=True, timeout=120)
             
-    log("Step 2.5: Rebuilding /hop weekly dashboard data (build_data_js.py)...")
-    p_b = subprocess.run([sys.executable, "build_data_js.py"], cwd=cwd, capture_output=True, text=True, timeout=120)
-    log(f"build_data_js Return Code: {p_b.returncode}")
-    log("Step 2.5: Hoàn tất cập nhật data.js & data.json cho /hop và Chi Phí Vận Tải NCC.")
+        # [DA TAT DONG BO WEEKLY THEO YEU CAU - DUNG LINK LOCAL]
+    # log("Step 2.5: Rebuilding /hop weekly dashboard data (build_data_js.py)...")
+    # p_b = subprocess.run([sys.executable, "build_data_js.py"], cwd=cwd, capture_output=True, text=True, timeout=120)
+    # log(f"build_data_js Return Code: {p_b.returncode}")
+    log("Step 2.5: Da bo qua buoc dong bo weekly dashboard (build_data_js.py) theo yeu cau.")
 except Exception as e:
     log(f"Step 2.5 Exception: {e}")
 
@@ -91,32 +92,47 @@ try:
     except Exception as sg_err:
         log(f"Safeguard error: {sg_err}")
 
-    log("Step 3: Git add and commit...")
-    subprocess.run(["git", "add", "*.csv", "ops_ca_data.csv", "app.py", "scratch/", "data.js", "data.json", "index.html", "templates/", "transport_costs.json", "app.js", ".gitignore"], cwd=cwd, capture_output=True)
-    subprocess.run(["git", "commit", "-m", "Auto update data, DB and /hop weekly report"], cwd=cwd, capture_output=True)
-    # Push đồng thời tới cả 3 remote để dashboard sếp và dashboard mới luôn cập nhật song song
-    remotes = ["origin", "db_2026", "boss"]
-    for rem in remotes:
-        log(f"Step 3: Git push to GitHub ({rem})...")
-        try:
-            p = subprocess.run(["git", "push", rem, "main"], cwd=cwd, capture_output=True, text=True, timeout=180)
-            log(f"Push to {rem} Return Code: {p.returncode}")
-            if p.stdout:
-                log(f"[{rem}] Output: {p.stdout.strip()}")
-            if p.stderr and "Everything up-to-date" not in p.stderr:
-                log(f"[{rem}] Stderr: {p.stderr.strip()}")
-        except Exception as push_err:
-            log(f"Push to {rem} Exception: {push_err}")
+    # Cấu hình Deploy theo yêu cầu của Chị Thủy:
+    # - Buổi sáng (6h00 đến 12h59 trưa): Chạy 30 phút/lần, commit và push lên GitHub/Vercel để cập nhật dashboard.
+    # - Buổi chiều & Tối (từ 13h00 trở đi): Chỉ đồng bộ dữ liệu vào Neon DB & lưu local, bỏ qua Git Push lên Vercel để tránh chạm giới hạn 100 deploy/ngày.
+        # [DA TAT GIT PUSH LEN VERCEL DE TRANH TRAN DUNG LUONG / CPU VERCEL]
+    ENABLE_VERCEL_PUSH = False  # Chuyen thanh True neu sau nay can push len Vercel
+    now_hour = datetime.datetime.now().hour
+    is_morning_window = (6 <= now_hour <= 12) and ENABLE_VERCEL_PUSH
+    
+    if is_morning_window:
+        log("Step 3: Git add and commit...")
+        subprocess.run(["git", "add", "*.csv", "ops_ca_data.csv", "app.py", "scratch/", "data.js", "data.json", "index.html", "templates/", "transport_costs.json", "app.js", ".gitignore"], cwd=cwd, capture_output=True)
+        commit_msg = "Auto update data NTB"
+        log(f"Step 3: Buổi sáng ({now_hour}h) -> Tiến hành Git commit và Push deploy Vercel (30 phút/lần)...")
+        subprocess.run(["git", "commit", "-m", commit_msg], cwd=cwd, capture_output=True)
+        
+        # Push đồng thời tới cả 3 remote để dashboard sếp và dashboard mới luôn cập nhật song song
+        # Chỉ push tới duy nhất remote origin (namtrungbo) để tránh spam Vercel
+        remotes = ["origin"]
+        for rem in remotes:
+            log(f"Step 3: Git push to GitHub ({rem})...")
+            try:
+                p = subprocess.run(["git", "push", rem, "main"], cwd=cwd, capture_output=True, text=True, timeout=180)
+                log(f"Push to {rem} Return Code: {p.returncode}")
+                if p.stdout:
+                    log(f"[{rem}] Output: {p.stdout.strip()}")
+                if p.stderr and "Everything up-to-date" not in p.stderr:
+                    log(f"[{rem}] Stderr: {p.stderr.strip()}")
+            except Exception as push_err:
+                log(f"Push to {rem} Exception: {push_err}")
 
-    # Ping làm ấm (Warm up) cả 2 trang Vercel để người dùng truy cập không bị chậm/chờ cold-start
-    try:
-        import urllib.request
-        for site in ["https://dashboard-ntb-2026.vercel.app/", "https://namtrungbo.vercel.app/"]:
-            req = urllib.request.Request(site, headers={"User-Agent": "Mozilla/5.0 (WarmUpBot)"})
-            urllib.request.urlopen(req, timeout=15)
-        log("Step 3: Đã ping làm ấm cả 2 link Vercel thành công.")
-    except Exception as warm_err:
-        log(f"Warm up exception (bỏ qua): {warm_err}")
+        # Ping làm ấm (Warm up) cả 2 trang Vercel để người dùng truy cập không bị chậm/chờ cold-start
+        try:
+            import urllib.request
+            for site in ["https://dashboard-ntb-2026.vercel.app/", "https://namtrungbo.vercel.app/"]:
+                req = urllib.request.Request(site, headers={"User-Agent": "Mozilla/5.0 (WarmUpBot)"})
+                urllib.request.urlopen(req, timeout=15)
+            log("Step 3: Đã ping làm ấm cả 2 link Vercel thành công.")
+        except Exception as warm_err:
+            log(f"Warm up exception (bỏ qua): {warm_err}")
+    else:
+        log(f"Step 3: Buổi chiều/tối ({now_hour}h) -> Đã đồng bộ DB Neon thành công. BỎ QUA Git push lên Vercel theo cấu hình (chỉ deploy buổi sáng đến 12h).")
 except Exception as e:
     log(f"Step 3 Exception: {e}")
 
