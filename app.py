@@ -527,12 +527,12 @@ def add_security_headers(response):
             else:
                 # Dashboard read APIs: Cache on Vercel Edge CDN for 5 minutes (300s)
                 # Multiple viewers in the morning will receive cached data in 5ms without Python CPU
-                response.headers['Cache-Control'] = 'public, max-age=60, s-maxage=300, stale-while-revalidate=600'
+                response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate, max-age=0'
                 response.headers.pop('Pragma', None)
                 response.headers.pop('Expires', None)
         elif path in ['/', '/dashboard', '/hop', '/meeting', '/bao-cao-hop', '/bao-cao-tuan', '/index.html']:
             # Main HTML pages: Cache on CDN for 5 minutes
-            response.headers['Cache-Control'] = 'public, max-age=60, s-maxage=300, stale-while-revalidate=600'
+            response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate, max-age=0'
             response.headers.pop('Pragma', None)
             response.headers.pop('Expires', None)
         else:
@@ -4880,7 +4880,7 @@ def home():
 def meeting_dashboard():
     root_dir = os.path.dirname(os.path.abspath(__file__))
     response = send_from_directory(root_dir, 'index.html')
-    response.headers['Cache-Control'] = 'public, max-age=60, s-maxage=300, stale-while-revalidate=600'
+    response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate, max-age=0'
     return response
 
 @app.route('/slide')
@@ -4901,6 +4901,10 @@ def download_cod_truythu_docx():
     return send_from_directory(root_dir, 'KICH_BAN_NOP_COD_QR_VA_TRUY_THU_W43.docx', as_attachment=True)
 
 @app.route('/kich-ban')
+@app.route('/kich-ban-w46')
+@app.route('/KICH_BAN_THUYET_TRINH_W46_NAM_TRUNG_BO.html')
+@app.route('/kich-ban-w45')
+@app.route('/KICH_BAN_THUYET_TRINH_W45_NAM_TRUNG_BO.html')
 @app.route('/script')
 @app.route('/KICH_BAN_THUYET_TRINH_W43_NAM_TRUNG_BO.html')
 @app.route('/kich-ban-w43')
@@ -4914,8 +4918,8 @@ def download_cod_truythu_docx():
 @app.route('/kich-ban-w38')
 def meeting_script_w38():
     root_dir = os.path.dirname(os.path.abspath(__file__))
-    target_file = "KICH_BAN_THUYET_TRINH_W41_NAM_TRUNG_BO.html"
-    for f_cand in ["KICH_BAN_THUYET_TRINH_W43_NAM_TRUNG_BO.html", "KICH_BAN_THUYET_TRINH_W42_NAM_TRUNG_BO.html", "KICH_BAN_THUYET_TRINH_W41_NAM_TRUNG_BO.html", "KICH_BAN_THUYET_TRINH_W40_NAM_TRUNG_BO.html", "KICH_BAN_THUYET_TRINH_W39_NAM_TRUNG_BO.html", "KICH_BAN_THUYET_TRINH_W38_NAM_TRUNG_BO.html"]:
+    target_file = "KICH_BAN_THUYET_TRINH_W46_NAM_TRUNG_BO.html"
+    for f_cand in ["KICH_BAN_THUYET_TRINH_W46_NAM_TRUNG_BO.html", "KICH_BAN_THUYET_TRINH_W45_NAM_TRUNG_BO.html", "KICH_BAN_THUYET_TRINH_W43_NAM_TRUNG_BO.html", "KICH_BAN_THUYET_TRINH_W42_NAM_TRUNG_BO.html", "KICH_BAN_THUYET_TRINH_W41_NAM_TRUNG_BO.html", "KICH_BAN_THUYET_TRINH_W40_NAM_TRUNG_BO.html", "KICH_BAN_THUYET_TRINH_W39_NAM_TRUNG_BO.html", "KICH_BAN_THUYET_TRINH_W38_NAM_TRUNG_BO.html"]:
         if os.path.exists(os.path.join(root_dir, f_cand)):
             target_file = f_cand
             break
@@ -4935,10 +4939,12 @@ def meeting_script():
 @app.route('/data.js')
 @app.route('/data.json')
 @app.route('/download-doc')
+@app.route('/KICH_BAN_THUYET_TRINH_W46_NAM_TRUNG_BO.docx')
 @app.route('/KICH_BAN_THUYET_TRINH_W41_NAM_TRUNG_BO.docx')
 @app.route('/KICH_BAN_THUYET_TRINH_W40_NAM_TRUNG_BO.docx')
 @app.route('/KICH_BAN_CANH_BAO_BUU_CUC_W38_VS_W39.docx')
 @app.route('/KICH_BAN_THUYET_TRINH_MOI_NHAT.docx')
+@app.route('/KICH_BAN_THUYET_TRINH_W45_NAM_TRUNG_BO.docx')
 @app.route('/KICH_BAN_THUYET_TRINH_W43_NAM_TRUNG_BO.docx')
 @app.route('/KICH_BAN_THUYET_TRINH_W42_NAM_TRUNG_BO.docx')
 @app.route('/KICH_BAN_THUYET_TRINH_W39_INSIGHT_CHUYEN_SAU_CHINH_SUA.docx')
@@ -4954,7 +4960,7 @@ def serve_meeting_assets():
     root_dir = os.path.dirname(os.path.abspath(__file__))
     req_file = request.path.lstrip('/')
     if req_file == 'download-doc':
-        for cand in ['KICH_BAN_THUYET_TRINH_W43_NAM_TRUNG_BO.docx', 'KICH_BAN_THUYET_TRINH_W42_NAM_TRUNG_BO.docx', 'KICH_BAN_THUYET_TRINH_W41_NAM_TRUNG_BO.docx', 'KICH_BAN_THUYET_TRINH_W40_NAM_TRUNG_BO.docx', 'KICH_BAN_THUYET_TRINH_W39_NAM_TRUNG_BO.docx', 'KICH_BAN_THUYET_TRINH_W38_NAM_TRUNG_BO.docx']:
+        for cand in ['KICH_BAN_THUYET_TRINH_W46_NAM_TRUNG_BO.docx', 'KICH_BAN_THUYET_TRINH_W45_NAM_TRUNG_BO.docx', 'KICH_BAN_THUYET_TRINH_W43_NAM_TRUNG_BO.docx', 'KICH_BAN_THUYET_TRINH_W42_NAM_TRUNG_BO.docx', 'KICH_BAN_THUYET_TRINH_W41_NAM_TRUNG_BO.docx', 'KICH_BAN_THUYET_TRINH_W40_NAM_TRUNG_BO.docx', 'KICH_BAN_THUYET_TRINH_W39_NAM_TRUNG_BO.docx', 'KICH_BAN_THUYET_TRINH_W38_NAM_TRUNG_BO.docx']:
             if os.path.exists(os.path.join(root_dir, cand)):
                 req_file = cand
                 break
@@ -4962,7 +4968,7 @@ def serve_meeting_assets():
     if req_file.endswith(('.css', '.js', '.png', '.jpg', '.svg', '.woff', '.woff2')):
         response.headers['Cache-Control'] = 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=86400'
     elif req_file in ['data.js', 'data.json']:
-        response.headers['Cache-Control'] = 'public, max-age=60, s-maxage=300, stale-while-revalidate=600'
+        response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate, max-age=0'
     else:
         response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
     return response
@@ -8355,7 +8361,7 @@ def sync_ntbo_api():
 @app.route('/kichban')
 def serve_kichban():
     root_dir = os.path.dirname(os.path.abspath(__file__))
-    return send_from_directory(root_dir, 'KICH_BAN_THUYET_TRINH_W43_NAM_TRUNG_BO.html')
+    return send_from_directory(root_dir, 'KICH_BAN_THUYET_TRINH_W45_NAM_TRUNG_BO.html')
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 3000))

@@ -25,7 +25,7 @@ warehouse_id,Bưu cục,Tỉnh,AM
 22759000,(LDO) Hòa Ninh,Lâm Đồng,Hồng Bích Nga
 22255000,(LDO) Hiệp Thạnh,Lâm Đồng,Nguyễn Thị Tuyết Thơ
 21516000,(LDO) Đức Trọng 2,Lâm Đồng,Nguyễn Thị Tuyết Thơ
-22389000,(LDO) Đức Trọng 1,Lâm Đồng,Nguyễn Lê Nguyên Vũ
+22389000,(LDO) Đức Trọng 1,Lâm Đồng,Nguyễn Thị Tuyết Thơ
 21377000,(LDO) Đơn Dương,Lâm Đồng,Phan Nguyễn Yến Nhi
 21294000,(LDO) Đinh Văn Lâm Hà,Lâm Đồng,Huỳnh Thị Kim Chi
 20942000,(LDO) Di Linh,Lâm Đồng,Nguyễn Lê Nguyên Vũ
@@ -35,7 +35,7 @@ warehouse_id,Bưu cục,Tỉnh,AM
 20669000,(LDO) Cát Tiên,Lâm Đồng,Nguyễn Đỗ Minh Nghĩa
 23015000,(LDO) Bảo Lâm 3,Lâm Đồng,Hồng Bích Nga
 22222000,(LDO) Bảo Lâm 1,Lâm Đồng,Hồng Bích Nga
-20785000,(LDO) B'Lao,Lâm Đồng,Hồng Bích Nga
+20785000,(LDO) B'Lao,Lâm Đồng,Nguyễn Hải Đông
 21468000,(LDO) 3 Bảo Lộc,Lâm Đồng,Nguyễn Lê Nguyên Vũ
 21688000,(LDO) 1 Bảo Lộc,Lâm Đồng,Hồng Bích Nga
 21046000,(KHO) Vạn Ninh,Khánh Hòa,Phan Đình Duy
@@ -69,8 +69,8 @@ warehouse_id,Bưu cục,Tỉnh,AM
 21477000,(DNO) Đức An,Đắk Nông,Trần Thị Nhung
 22048000,(DNO) Đông Gia Nghĩa,Đắk Nông,Lê Hồng Phong
 22048001,(DNO) ĐL Nam Gia Nghĩa 2,Đắk Nông,Trương Quang Linh
-22048001,(DNO) ĐL Nam Gia Nghĩa 2,Đắk Nông,Lê Hồng Phong
-21659000,(DNO) ĐL Nam Gia Nghĩa,Đắk Nông,Trần Thị Nhung
+22048001,(DNO) ĐL Nam Gia Nghĩa 2,Đắk Nông,Trương Quang Linh
+21659000,(DNO) ĐL Nam Gia Nghĩa 1,Đắk Nông,Trần Thị Nhung
 20673000,(DNO) Cư Jút,Đắk Nông,Trần Thị Nhung
 22242000,(DNO) Bắc Gia Nghĩa,Đắk Nông,Lê Hồng Phong
 21290000,(BTH) Tuyên Quang,Bình Thuận,Lê Thanh Nhựt

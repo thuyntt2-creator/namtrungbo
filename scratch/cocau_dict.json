@@ -1,0 +1,386 @@
+{
+  "Kho Trung Chuyển Khánh Hòa": {
+    "tinh": "Khánh Hòa",
+    "am": "Nguyễn Tiến Lực"
+  },
+  "Kho Chuyển Tiếp Đức Trọng-Lâm Đồng": {
+    "tinh": "Lâm Đồng",
+    "am": "Nguyễn Minh Hoàng"
+  },
+  "Kho Chuyển Tiếp Đắk Nông": {
+    "tinh": "Đắk Nông",
+    "am": "Nguyễn Tiến Lực"
+  },
+  "Kho Chuyển Tiếp Bình Thuận": {
+    "tinh": "Bình Thuận",
+    "am": "Nguyễn Ngọc Khánh"
+  },
+  "Kho Chuyển Tiếp Bảo Lộc-Lâm Đồng": {
+    "tinh": "Lâm Đồng",
+    "am": "Nguyễn Minh Hoàng"
+  },
+  "(NTH) Thuận Nam": {
+    "tinh": "Ninh Thuận",
+    "am": "Nguyễn Duy Long"
+  },
+  "(NTH) Phước Dinh": {
+    "tinh": "Ninh Thuận",
+    "am": "Nguyễn Duy Long"
+  },
+  "(NTH) Phan Rang": {
+    "tinh": "Ninh Thuận",
+    "am": "Nguyễn Duy Long"
+  },
+  "(NTH) Ninh Sơn": {
+    "tinh": "Ninh Thuận",
+    "am": "Nguyễn Duy Long"
+  },
+  "(NTH) Ninh Chử": {
+    "tinh": "Ninh Thuận",
+    "am": "Nguyễn Duy Long"
+  },
+  "(NTH) ĐL Xuân Hải": {
+    "tinh": "Ninh Thuận",
+    "am": "Nguyễn Duy Long"
+  },
+  "(NTH) ĐL Ninh Phước": {
+    "tinh": "Ninh Thuận",
+    "am": "Nguyễn Duy Long"
+  },
+  "(NTH) ĐL Cà Ná": {
+    "tinh": "Ninh Thuận",
+    "am": "Nguyễn Duy Long"
+  },
+  "(NTH) Bảo An": {
+    "tinh": "Ninh Thuận",
+    "am": "Nguyễn Duy Long"
+  },
+  "(LDO) Xuân Trường - Đà Lạt": {
+    "tinh": "Lâm Đồng",
+    "am": "Lê Văn Trường"
+  },
+  "(LDO) Xuân Hương - Đà Lạt": {
+    "tinh": "Lâm Đồng",
+    "am": "Lê Văn Trường"
+  },
+  "(LDO) Tân Hà Lâm Hà": {
+    "tinh": "Lâm Đồng",
+    "am": "Huỳnh Thị Kim Chi"
+  },
+  "(LDO) Ninh Gia": {
+    "tinh": "Lâm Đồng",
+    "am": "Nguyễn Thị Tuyết Thơ"
+  },
+  "(LDO) Nam Ban Lâm Hà": {
+    "tinh": "Lâm Đồng",
+    "am": "Huỳnh Thị Kim Chi"
+  },
+  "(LDO) Lang Biang - Đà Lạt 2": {
+    "tinh": "Lâm Đồng",
+    "am": "Lê Văn Trường"
+  },
+  "(LDO) Lang Biang - Đà Lạt 1": {
+    "tinh": "Lâm Đồng",
+    "am": "Lê Minh Lợi"
+  },
+  "(LDO) Lâm Viên - Đà Lạt 2": {
+    "tinh": "Lâm Đồng",
+    "am": "Trần Nguyễn Huyền Trang"
+  },
+  "(LDO) Lâm Viên - Đà Lạt 1": {
+    "tinh": "Lâm Đồng",
+    "am": "Lê Văn Trường"
+  },
+  "(LDO) Hòa Ninh": {
+    "tinh": "Lâm Đồng",
+    "am": "Hồng Bích Nga"
+  },
+  "(LDO) Hiệp Thạnh": {
+    "tinh": "Lâm Đồng",
+    "am": "Nguyễn Thị Tuyết Thơ"
+  },
+  "(LDO) Đức Trọng 2": {
+    "tinh": "Lâm Đồng",
+    "am": "Nguyễn Thị Tuyết Thơ"
+  },
+  "(LDO) Đức Trọng 1": {
+    "tinh": "Lâm Đồng",
+    "am": "Nguyễn Lê Nguyên Vũ"
+  },
+  "(LDO) Đơn Dương": {
+    "tinh": "Lâm Đồng",
+    "am": "Phan Nguyễn Yến Nhi"
+  },
+  "(LDO) Đinh Văn Lâm Hà": {
+    "tinh": "Lâm Đồng",
+    "am": "Huỳnh Thị Kim Chi"
+  },
+  "(LDO) Di Linh": {
+    "tinh": "Lâm Đồng",
+    "am": "Nguyễn Lê Nguyên Vũ"
+  },
+  "(LDO) Đam Rông 3": {
+    "tinh": "Lâm Đồng",
+    "am": "Huỳnh Thị Kim Chi"
+  },
+  "(LDO) Đạ Tẻh": {
+    "tinh": "Lâm Đồng",
+    "am": "Nguyễn Đỗ Minh Nghĩa"
+  },
+  "(LDO) Đạ Huoai": {
+    "tinh": "Lâm Đồng",
+    "am": "Nguyễn Đỗ Minh Nghĩa"
+  },
+  "(LDO) Cát Tiên": {
+    "tinh": "Lâm Đồng",
+    "am": "Nguyễn Đỗ Minh Nghĩa"
+  },
+  "(LDO) Bảo Lâm 3": {
+    "tinh": "Lâm Đồng",
+    "am": "Hồng Bích Nga"
+  },
+  "(LDO) Bảo Lâm 1": {
+    "tinh": "Lâm Đồng",
+    "am": "Hồng Bích Nga"
+  },
+  "(LDO) B'Lao": {
+    "tinh": "Lâm Đồng",
+    "am": "Hồng Bích Nga"
+  },
+  "(LDO) 3 Bảo Lộc": {
+    "tinh": "Lâm Đồng",
+    "am": "Nguyễn Lê Nguyên Vũ"
+  },
+  "(LDO) 1 Bảo Lộc": {
+    "tinh": "Lâm Đồng",
+    "am": "Hồng Bích Nga"
+  },
+  "(KHO) Vạn Ninh": {
+    "tinh": "Khánh Hòa",
+    "am": "Phan Đình Duy"
+  },
+  "(KHO) Tu Bông": {
+    "tinh": "Khánh Hòa",
+    "am": "Phan Đình Duy"
+  },
+  "(KHO) Tây Nha Trang": {
+    "tinh": "Khánh Hòa",
+    "am": "Thái Thị Thanh Thư"
+  },
+  "(KHO) Ninh Hòa 2": {
+    "tinh": "Khánh Hòa",
+    "am": "Nguyễn Hoàng Phi"
+  },
+  "(KHO) Ninh Hòa 1": {
+    "tinh": "Khánh Hòa",
+    "am": "Nguyễn Hoàng Phi"
+  },
+  "(KHO) Nha Trang": {
+    "tinh": "Khánh Hòa",
+    "am": "Phan Đình Duy"
+  },
+  "(KHO) Nam Nha Trang 3": {
+    "tinh": "Khánh Hòa",
+    "am": "Thái Thị Thanh Thư"
+  },
+  "(KHO) Nam Nha Trang 2": {
+    "tinh": "Khánh Hòa",
+    "am": "Thái Thị Thanh Thư"
+  },
+  "(KHO) Nam Nha Trang 1": {
+    "tinh": "Khánh Hòa",
+    "am": "Thái Thị Thanh Thư"
+  },
+  "(KHO) Khánh Vĩnh": {
+    "tinh": "Khánh Hòa",
+    "am": "Nguyễn Hoàng Phi"
+  },
+  "(KHO) Khánh Sơn": {
+    "tinh": "Khánh Hòa",
+    "am": "Phan Đình Duy"
+  },
+  "(KHO) Đông Ninh Hòa": {
+    "tinh": "Khánh Hòa",
+    "am": "Phan Đình Duy"
+  },
+  "(KHO) Diên Thọ": {
+    "tinh": "Khánh Hòa",
+    "am": "Nguyễn Hoàng Phi"
+  },
+  "(KHO) Diên Khánh 2": {
+    "tinh": "Khánh Hòa",
+    "am": "Nguyễn Hoàng Phi"
+  },
+  "(KHO) Diên Khánh 1": {
+    "tinh": "Khánh Hòa",
+    "am": "Nguyễn Hoàng Phi"
+  },
+  "(KHO) CK Bắc Nha Trang": {
+    "tinh": "Khánh Hòa",
+    "am": "Thái Thị Thanh Thư"
+  },
+  "(KHO) Cam Linh": {
+    "tinh": "Khánh Hòa",
+    "am": "Nguyễn Thanh Long"
+  },
+  "(KHO) Cam Lâm 2": {
+    "tinh": "Khánh Hòa",
+    "am": "Nguyễn Thanh Long"
+  },
+  "(KHO) Cam Lâm 1": {
+    "tinh": "Khánh Hòa",
+    "am": "Nguyễn Hoàng Phi"
+  },
+  "(KHO) Bắc Nha Trang": {
+    "tinh": "Khánh Hòa",
+    "am": "Thái Thị Thanh Thư"
+  },
+  "(KHO) Bắc Cam Ranh": {
+    "tinh": "Khánh Hòa",
+    "am": "Nguyễn Thanh Long"
+  },
+  "(DNO) Tuy Đức": {
+    "tinh": "Đắk Nông",
+    "am": "Trần Thị Nhung"
+  },
+  "(DNO) Trường Xuân": {
+    "tinh": "Đắk Nông",
+    "am": "Trần Thị Nhung"
+  },
+  "(DNO) Quảng Tín": {
+    "tinh": "Đắk Nông",
+    "am": "Trương Quang Linh"
+  },
+  "(DNO) Quảng Sơn": {
+    "tinh": "Đắk Nông",
+    "am": "Trần Thị Nhung"
+  },
+  "(DNO) Quảng Khê": {
+    "tinh": "Đắk Nông",
+    "am": "Trần Thị Nhung"
+  },
+  "(DNO) Krông Nô": {
+    "tinh": "Đắk Nông",
+    "am": "Trần Thị Nhung"
+  },
+  "(DNO) Kiến Đức": {
+    "tinh": "Đắk Nông",
+    "am": "Lê Hồng Phong"
+  },
+  "(DNO) Đức Lập": {
+    "tinh": "Đắk Nông",
+    "am": "Trần Thị Nhung"
+  },
+  "(DNO) Đức An": {
+    "tinh": "Đắk Nông",
+    "am": "Trần Thị Nhung"
+  },
+  "(DNO) Đông Gia Nghĩa": {
+    "tinh": "Đắk Nông",
+    "am": "Lê Hồng Phong"
+  },
+  "(DNO) ĐL Nam Gia Nghĩa 2": {
+    "tinh": "Đắk Nông",
+    "am": "Trương Quang Linh"
+  },
+  "(DNO) ĐL Nam Gia Nghĩa": {
+    "tinh": "Đắk Nông",
+    "am": "Trần Thị Nhung"
+  },
+  "(DNO) Cư Jút": {
+    "tinh": "Đắk Nông",
+    "am": "Trần Thị Nhung"
+  },
+  "(DNO) Bắc Gia Nghĩa": {
+    "tinh": "Đắk Nông",
+    "am": "Lê Hồng Phong"
+  },
+  "(BTH) Tuyên Quang": {
+    "tinh": "Bình Thuận",
+    "am": "Lê Thanh Nhựt"
+  },
+  "(BTH) Tân Hải": {
+    "tinh": "Bình Thuận",
+    "am": "Cao Thị Thanh Thủy"
+  },
+  "(BTH) Phước Hội": {
+    "tinh": "Bình Thuận",
+    "am": "Cao Thị Thanh Thủy"
+  },
+  "(BTH) Phú Thủy": {
+    "tinh": "Bình Thuận",
+    "am": "Nguyễn Ngọc Khánh"
+  },
+  "(BTH) Phú Quý": {
+    "tinh": "Bình Thuận",
+    "am": "Nguyễn Ngọc Khánh"
+  },
+  "(BTH) Phan Rí Cửa": {
+    "tinh": "Bình Thuận",
+    "am": "Nguyễn Duy Long"
+  },
+  "(BTH) Mũi Né": {
+    "tinh": "Bình Thuận",
+    "am": "Nguyễn Ngọc Khánh"
+  },
+  "(BTH) Lương Sơn": {
+    "tinh": "Bình Thuận",
+    "am": "Nguyễn Ngọc Khánh"
+  },
+  "(BTH) Liên Hương": {
+    "tinh": "Bình Thuận",
+    "am": "Nguyễn Duy Long"
+  },
+  "(BTH) Hàm Thuận Nam": {
+    "tinh": "Bình Thuận",
+    "am": "Cao Thị Thanh Thủy"
+  },
+  "(BTH) Hàm Thuận": {
+    "tinh": "Bình Thuận",
+    "am": "Lê Thanh Nhựt"
+  },
+  "(BTH) Hàm Thắng": {
+    "tinh": "Bình Thuận",
+    "am": "Nguyễn Ngọc Khánh"
+  },
+  "(BTH) Hàm Tân": {
+    "tinh": "Bình Thuận",
+    "am": "Cao Thị Thanh Thủy"
+  },
+  "(BTH) Hàm Liêm": {
+    "tinh": "Bình Thuận",
+    "am": "Lê Thanh Nhựt"
+  },
+  "(BTH) Đức Linh": {
+    "tinh": "Bình Thuận",
+    "am": "Lê Thanh Nhựt"
+  },
+  "(BTH) Đồng Kho": {
+    "tinh": "Bình Thuận",
+    "am": "Lê Thanh Nhựt"
+  },
+  "(BTH) ĐL Trà Tân": {
+    "tinh": "Bình Thuận",
+    "am": "Nguyễn Ngọc Khánh"
+  },
+  "(BTH) Bắc Bình": {
+    "tinh": "Bình Thuận",
+    "am": "Nguyễn Ngọc Khánh"
+  },
+  "(LDO) D'Ran": {
+    "tinh": "Lâm Đồng",
+    "am": "Phan Nguyễn Yến Nhi"
+  },
+  "(KHO) Tân Định": {
+    "tinh": "Khánh Hòa",
+    "am": "Nguyễn Hoàng Phi"
+  },
+  "(DNO) Nhân Cơ 1": {
+    "tinh": "Đắk Nông",
+    "am": "Lê Hồng Phong"
+  },
+  "(KHO) Nam Nha Trang": {
+    "tinh": "Khánh Hòa",
+    "am": "Thái Thị Thanh Thư"
+  }
+}
